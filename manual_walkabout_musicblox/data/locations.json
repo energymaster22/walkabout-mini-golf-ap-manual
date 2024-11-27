@@ -1,150 +1,150 @@
 [
   {
-    "name": "TT Hole 1",
+    "name": "TTE Hole 1",
     "region": "Tourist Trap",
     "category": [
       "Tourist Trap Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Progressive Stroke Limit:1|"
+    "requires": "|Tourist Trap Course| AND |TTE Progressive Stroke Limit:1|"
   },
   {
-    "name": "TT Hole 2",
+    "name": "TTE Hole 2",
     "region": "Tourist Trap",
     "category": [
       "Tourist Trap Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Progressive Stroke Limit:1|"
+    "requires": "|Tourist Trap Course| AND |TTE Progressive Stroke Limit:1|"
   },
   {
-    "name": "TT Hole 3",
+    "name": "TTE Hole 3",
     "region": "Tourist Trap",
     "category": [
       "Tourist Trap Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Progressive Stroke Limit:2|"
+    "requires": "|Tourist Trap Course| AND |TTE Progressive Stroke Limit:2|"
   },
   {
-    "name": "TT Hole 4",
+    "name": "TTE Hole 4",
     "region": "Tourist Trap",
     "category": [
       "Tourist Trap Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Progressive Stroke Limit:2|"
+    "requires": "|Tourist Trap Course| AND |TTE Progressive Stroke Limit:2|"
   },
   {
-    "name": "TT Hole 5",
+    "name": "TTE Hole 5",
     "region": "Tourist Trap",
     "category": [
       "Tourist Trap Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Progressive Stroke Limit:2|"
+    "requires": "|Tourist Trap Course| AND |TTE Progressive Stroke Limit:2|"
   },
   {
-    "name": "TT Hole 6",
+    "name": "TTE Hole 6",
     "region": "Tourist Trap",
     "category": [
       "Tourist Trap Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Progressive Stroke Limit:2|"
+    "requires": "|Tourist Trap Course| AND |TTE Progressive Stroke Limit:2|"
   },
   {
-    "name": "TT Hole 7",
+    "name": "TTE Hole 7",
     "region": "Tourist Trap",
     "category": [
       "Tourist Trap Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Progressive Stroke Limit:2|"
+    "requires": "|Tourist Trap Course| AND |TTE Progressive Stroke Limit:2|"
   },
   {
-    "name": "TT Hole 8",
+    "name": "TTE Hole 8",
     "region": "Tourist Trap",
     "category": [
       "Tourist Trap Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Progressive Stroke Limit:3|"
+    "requires": "|Tourist Trap Course| AND |TTE Progressive Stroke Limit:3|"
   },
   {
-    "name": "TT Hole 9",
+    "name": "TTE Hole 9",
     "region": "Tourist Trap",
     "category": [
       "Tourist Trap Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Progressive Stroke Limit:2|"
+    "requires": "|Tourist Trap Course| AND |TTE Progressive Stroke Limit:2|"
   },
   {
-    "name": "TT Hole 10",
+    "name": "TTE Hole 10",
     "region": "Tourist Trap",
     "category": [
       "Tourist Trap Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Progressive Stroke Limit:2|"
+    "requires": "|Tourist Trap Course| AND |TTE Progressive Stroke Limit:2|"
   },
   {
-    "name": "TT Hole 11",
+    "name": "TTE Hole 11",
     "region": "Tourist Trap",
     "category": [
       "Tourist Trap Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Progressive Stroke Limit:2|"
+    "requires": "|Tourist Trap Course| AND |TTE Progressive Stroke Limit:2|"
   },
   {
-    "name": "TT Hole 12",
+    "name": "TTE Hole 12",
     "region": "Tourist Trap",
     "category": [
       "Tourist Trap Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Progressive Stroke Limit:2|"
+    "requires": "|Tourist Trap Course| AND |TTE Progressive Stroke Limit:2|"
   },
   {
-    "name": "TT Hole 13",
+    "name": "TTE Hole 13",
     "region": "Tourist Trap",
     "category": [
       "Tourist Trap Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Progressive Stroke Limit:2|"
+    "requires": "|Tourist Trap Course| AND |TTE Progressive Stroke Limit:2|"
   },
   {
-    "name": "TT Hole 14",
+    "name": "TTE Hole 14",
     "region": "Tourist Trap",
     "category": [
       "Tourist Trap Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Progressive Stroke Limit:3|"
+    "requires": "|Tourist Trap Course| AND |TTE Progressive Stroke Limit:3|"
   },
   {
-    "name": "TT Hole 15",
+    "name": "TTE Hole 15",
     "region": "Tourist Trap",
     "category": [
       "Tourist Trap Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Progressive Stroke Limit:2|"
+    "requires": "|Tourist Trap Course| AND |TTE Progressive Stroke Limit:2|"
   },
   {
-    "name": "TT Hole 16",
+    "name": "TTE Hole 16",
     "region": "Tourist Trap",
     "category": [
       "Tourist Trap Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Progressive Stroke Limit:2|"
+    "requires": "|Tourist Trap Course| AND |TTE Progressive Stroke Limit:2|"
   },
   {
-    "name": "TT Hole 17",
+    "name": "TTE Hole 17",
     "region": "Tourist Trap",
     "category": [
       "Tourist Trap Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Progressive Stroke Limit:2|"
+    "requires": "|Tourist Trap Course| AND |TTE Progressive Stroke Limit:2|"
   },
   {
-    "name": "TT Hole 18",
+    "name": "TTE Hole 18",
     "region": "Tourist Trap",
     "category": [
       "Tourist Trap Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Progressive Stroke Limit:5|"
+    "requires": "|Tourist Trap Course| AND |TTE Progressive Stroke Limit:5|"
   },
   {
-    "name": "TT Ball 1",
+    "name": "TTE Ball 1",
     "category": [
       "Tourist Trap Lost Balls"
     ],
@@ -152,7 +152,7 @@
     "region": "Tourist Trap"
   },
   {
-    "name": "TT Ball 2",
+    "name": "TTE Ball 2",
     "category": [
       "Tourist Trap Lost Balls"
     ],
@@ -160,7 +160,7 @@
     "region": "Tourist Trap"
   },
   {
-    "name": "TT Ball 3",
+    "name": "TTE Ball 3",
     "category": [
       "Tourist Trap Lost Balls"
     ],
@@ -168,7 +168,7 @@
     "region": "Tourist Trap"
   },
   {
-    "name": "TT Ball 4",
+    "name": "TTE Ball 4",
     "category": [
       "Tourist Trap Lost Balls"
     ],
@@ -176,7 +176,7 @@
     "region": "Tourist Trap"
   },
   {
-    "name": "TT Ball 5",
+    "name": "TTE Ball 5",
     "category": [
       "Tourist Trap Lost Balls"
     ],
@@ -184,7 +184,7 @@
     "region": "Tourist Trap"
   },
   {
-    "name": "TT Ball 6",
+    "name": "TTE Ball 6",
     "category": [
       "Tourist Trap Lost Balls"
     ],
@@ -192,7 +192,7 @@
     "region": "Tourist Trap"
   },
   {
-    "name": "TT Ball 7",
+    "name": "TTE Ball 7",
     "category": [
       "Tourist Trap Lost Balls"
     ],
@@ -200,7 +200,7 @@
     "region": "Tourist Trap"
   },
   {
-    "name": "TT Ball 8",
+    "name": "TTE Ball 8",
     "category": [
       "Tourist Trap Lost Balls"
     ],
@@ -208,7 +208,7 @@
     "region": "Tourist Trap"
   },
   {
-    "name": "TT Ball 9",
+    "name": "TTE Ball 9",
     "category": [
       "Tourist Trap Lost Balls"
     ],
@@ -216,7 +216,7 @@
     "region": "Tourist Trap"
   },
   {
-    "name": "TT Ball 10",
+    "name": "TTE Ball 10",
     "category": [
       "Tourist Trap Lost Balls"
     ],
@@ -224,7 +224,7 @@
     "region": "Tourist Trap"
   },
   {
-    "name": "TT Ball 11",
+    "name": "TTE Ball 11",
     "category": [
       "Tourist Trap Lost Balls"
     ],
@@ -232,7 +232,7 @@
     "region": "Tourist Trap"
   },
   {
-    "name": "TT Ball 12",
+    "name": "TTE Ball 12",
     "category": [
       "Tourist Trap Lost Balls"
     ],
@@ -240,7 +240,7 @@
     "region": "Tourist Trap"
   },
   {
-    "name": "TT Ball 13",
+    "name": "TTE Ball 13",
     "category": [
       "Tourist Trap Lost Balls"
     ],
@@ -248,7 +248,7 @@
     "region": "Tourist Trap"
   },
   {
-    "name": "TT Ball 14",
+    "name": "TTE Ball 14",
     "category": [
       "Tourist Trap Lost Balls"
     ],
@@ -256,7 +256,7 @@
     "region": "Tourist Trap"
   },
   {
-    "name": "TT Ball 15",
+    "name": "TTE Ball 15",
     "category": [
       "Tourist Trap Lost Balls"
     ],
@@ -264,7 +264,7 @@
     "region": "Tourist Trap"
   },
   {
-    "name": "TT Ball 16",
+    "name": "TTE Ball 16",
     "category": [
       "Tourist Trap Lost Balls"
     ],
@@ -272,7 +272,7 @@
     "region": "Tourist Trap"
   },
   {
-    "name": "TT Ball 17",
+    "name": "TTE Ball 17",
     "category": [
       "Tourist Trap Lost Balls"
     ],
@@ -280,7 +280,7 @@
     "region": "Tourist Trap"
   },
   {
-    "name": "TT Ball 18",
+    "name": "TTE Ball 18",
     "category": [
       "Tourist Trap Lost Balls"
     ],
@@ -292,7 +292,7 @@
     "category": [
       "Tourist Trap Hard Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10| AND |TTH Progressive Stroke Limit:1|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10| AND |TTH Progressive Stroke Limit:1|",
     "region": "Tourist Trap Hard"
   },
   {
@@ -300,7 +300,7 @@
     "category": [
       "Tourist Trap Hard Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10| AND |TTH Progressive Stroke Limit:2|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10| AND |TTH Progressive Stroke Limit:2|",
     "region": "Tourist Trap Hard"
   },
   {
@@ -308,7 +308,7 @@
     "category": [
       "Tourist Trap Hard Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10| AND |TTH Progressive Stroke Limit:2|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10| AND |TTH Progressive Stroke Limit:2|",
     "region": "Tourist Trap Hard"
   },
   {
@@ -316,7 +316,7 @@
     "category": [
       "Tourist Trap Hard Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10| AND |TTH Progressive Stroke Limit:2|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10| AND |TTH Progressive Stroke Limit:2|",
     "region": "Tourist Trap Hard"
   },
   {
@@ -324,7 +324,7 @@
     "category": [
       "Tourist Trap Hard Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10| AND |TTH Progressive Stroke Limit:2|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10| AND |TTH Progressive Stroke Limit:2|",
     "region": "Tourist Trap Hard"
   },
   {
@@ -332,7 +332,7 @@
     "category": [
       "Tourist Trap Hard Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10| AND |TTH Progressive Stroke Limit:3|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10| AND |TTH Progressive Stroke Limit:3|",
     "region": "Tourist Trap Hard"
   },
   {
@@ -340,7 +340,7 @@
     "category": [
       "Tourist Trap Hard Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10| AND |TTH Progressive Stroke Limit:2|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10| AND |TTH Progressive Stroke Limit:2|",
     "region": "Tourist Trap Hard"
   },
   {
@@ -348,7 +348,7 @@
     "category": [
       "Tourist Trap Hard Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10| AND |TTH Progressive Stroke Limit:2|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10| AND |TTH Progressive Stroke Limit:2|",
     "region": "Tourist Trap Hard"
   },
   {
@@ -356,7 +356,7 @@
     "category": [
       "Tourist Trap Hard Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10| AND |TTH Progressive Stroke Limit:3|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10| AND |TTH Progressive Stroke Limit:3|",
     "region": "Tourist Trap Hard"
   },
   {
@@ -364,7 +364,7 @@
     "category": [
       "Tourist Trap Hard Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10| AND |TTH Progressive Stroke Limit:2|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10| AND |TTH Progressive Stroke Limit:2|",
     "region": "Tourist Trap Hard"
   },
   {
@@ -372,7 +372,7 @@
     "category": [
       "Tourist Trap Hard Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10| AND |TTH Progressive Stroke Limit:2|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10| AND |TTH Progressive Stroke Limit:2|",
     "region": "Tourist Trap Hard"
   },
   {
@@ -380,7 +380,7 @@
     "category": [
       "Tourist Trap Hard Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10| AND |TTH Progressive Stroke Limit:2|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10| AND |TTH Progressive Stroke Limit:2|",
     "region": "Tourist Trap Hard"
   },
   {
@@ -388,7 +388,7 @@
     "category": [
       "Tourist Trap Hard Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10| AND |TTH Progressive Stroke Limit:3|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10| AND |TTH Progressive Stroke Limit:3|",
     "region": "Tourist Trap Hard"
   },
   {
@@ -396,7 +396,7 @@
     "category": [
       "Tourist Trap Hard Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10| AND |TTH Progressive Stroke Limit:3|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10| AND |TTH Progressive Stroke Limit:3|",
     "region": "Tourist Trap Hard"
   },
   {
@@ -404,7 +404,7 @@
     "category": [
       "Tourist Trap Hard Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10| AND |TTH Progressive Stroke Limit:3|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10| AND |TTH Progressive Stroke Limit:3|",
     "region": "Tourist Trap Hard"
   },
   {
@@ -412,7 +412,7 @@
     "category": [
       "Tourist Trap Hard Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10| AND |TTH Progressive Stroke Limit:2|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10| AND |TTH Progressive Stroke Limit:2|",
     "region": "Tourist Trap Hard"
   },
   {
@@ -420,7 +420,7 @@
     "category": [
       "Tourist Trap Hard Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10| AND |TTH Progressive Stroke Limit:2|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10| AND |TTH Progressive Stroke Limit:2|",
     "region": "Tourist Trap Hard"
   },
   {
@@ -428,7 +428,7 @@
     "category": [
       "Tourist Trap Hard Holes"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10| AND |TTH Progressive Stroke Limit:5|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10| AND |TTH Progressive Stroke Limit:5|",
     "region": "Tourist Trap Hard"
   },
   {
@@ -436,7 +436,7 @@
     "category": [
       "Tourist Trap Hard Foxhunt Clues"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10|",
     "region": "Tourist Trap Hard"
   },
   {
@@ -444,7 +444,7 @@
     "category": [
       "Tourist Trap Hard Foxhunt Clues"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10|",
     "region": "Tourist Trap Hard"
   },
   {
@@ -452,7 +452,7 @@
     "category": [
       "Tourist Trap Hard Foxhunt Clues"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10|",
     "region": "Tourist Trap Hard"
   },
   {
@@ -460,7 +460,7 @@
     "category": [
       "Tourist Trap Hard Foxhunt Clues"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10|",
     "region": "Tourist Trap Hard"
   },
   {
@@ -468,7 +468,7 @@
     "category": [
       "Tourist Trap Hard Foxhunt Clues"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10|",
     "region": "Tourist Trap Hard"
   },
   {
@@ -476,7 +476,7 @@
     "category": [
       "Tourist Trap Hard Foxhunt Clues"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10|",
     "region": "Tourist Trap Hard"
   },
   {
@@ -484,7 +484,7 @@
     "category": [
       "Tourist Trap Hard Foxhunt Clues"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10|",
     "region": "Tourist Trap Hard"
   },
   {
@@ -492,7 +492,7 @@
     "category": [
       "Tourist Trap Hard Foxhunt Clues"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10|",
     "region": "Tourist Trap Hard"
   },
   {
@@ -500,7 +500,7 @@
     "category": [
       "Tourist Trap Hard Foxhunt Clues"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10|",
     "region": "Tourist Trap Hard"
   },
   {
@@ -508,7 +508,7 @@
     "category": [
       "Tourist Trap Hard Foxhunt Clues"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10|",
     "region": "Tourist Trap Hard"
   },
   {
@@ -516,7 +516,7 @@
     "category": [
       "Tourist Trap Hard Foxhunt Clues"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10|",
     "region": "Tourist Trap Hard"
   },
   {
@@ -524,7 +524,7 @@
     "category": [
       "Tourist Trap Hard Foxhunt Clues"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10|",
     "region": "Tourist Trap Hard"
   },
   {
@@ -532,155 +532,155 @@
     "category": [
       "Tourist Trap Hard Foxhunt Clues"
     ],
-    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10|",
+    "requires": "|Tourist Trap Course| AND |TTE Lost Ball:10|",
     "region": "Tourist Trap Hard"
   },
   {
-    "name": "CB Hole 1",
+    "name": "CBE Hole 1",
     "region": "Cherry Blossom",
     "category": [
       "Cherry Blossom Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Progressive Stroke Limit:2|"
+    "requires": "|Cherry Blossom Course| AND |CBE Progressive Stroke Limit:2|"
   },
   {
-    "name": "CB Hole 2",
+    "name": "CBE Hole 2",
     "region": "Cherry Blossom",
     "category": [
       "Cherry Blossom Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Progressive Stroke Limit:3|"
+    "requires": "|Cherry Blossom Course| AND |CBE Progressive Stroke Limit:3|"
   },
   {
-    "name": "CB Hole 3",
+    "name": "CBE Hole 3",
     "region": "Cherry Blossom",
     "category": [
       "Cherry Blossom Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Progressive Stroke Limit:2|"
+    "requires": "|Cherry Blossom Course| AND |CBE Progressive Stroke Limit:2|"
   },
   {
-    "name": "CB Hole 4",
+    "name": "CBE Hole 4",
     "region": "Cherry Blossom",
     "category": [
       "Cherry Blossom Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Progressive Stroke Limit:3|"
+    "requires": "|Cherry Blossom Course| AND |CBE Progressive Stroke Limit:3|"
   },
   {
-    "name": "CB Hole 5",
+    "name": "CBE Hole 5",
     "region": "Cherry Blossom",
     "category": [
       "Cherry Blossom Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Progressive Stroke Limit:2|"
+    "requires": "|Cherry Blossom Course| AND |CBE Progressive Stroke Limit:2|"
   },
   {
-    "name": "CB Hole 6",
+    "name": "CBE Hole 6",
     "region": "Cherry Blossom",
     "category": [
       "Cherry Blossom Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Progressive Stroke Limit:2|"
+    "requires": "|Cherry Blossom Course| AND |CBE Progressive Stroke Limit:2|"
   },
   {
-    "name": "CB Hole 7",
+    "name": "CBE Hole 7",
     "region": "Cherry Blossom",
     "category": [
       "Cherry Blossom Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Progressive Stroke Limit:2|"
+    "requires": "|Cherry Blossom Course| AND |CBE Progressive Stroke Limit:2|"
   },
   {
-    "name": "CB Hole 8",
+    "name": "CBE Hole 8",
     "region": "Cherry Blossom",
     "category": [
       "Cherry Blossom Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Progressive Stroke Limit:3|"
+    "requires": "|Cherry Blossom Course| AND |CBE Progressive Stroke Limit:3|"
   },
   {
-    "name": "CB Hole 9",
+    "name": "CBE Hole 9",
     "region": "Cherry Blossom",
     "category": [
       "Cherry Blossom Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Progressive Stroke Limit:2|"
+    "requires": "|Cherry Blossom Course| AND |CBE Progressive Stroke Limit:2|"
   },
   {
-    "name": "CB Hole 10",
+    "name": "CBE Hole 10",
     "region": "Cherry Blossom",
     "category": [
       "Cherry Blossom Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Progressive Stroke Limit:4|"
+    "requires": "|Cherry Blossom Course| AND |CBE Progressive Stroke Limit:4|"
   },
   {
-    "name": "CB Hole 11",
+    "name": "CBE Hole 11",
     "region": "Cherry Blossom",
     "category": [
       "Cherry Blossom Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Progressive Stroke Limit:2|"
+    "requires": "|Cherry Blossom Course| AND |CBE Progressive Stroke Limit:2|"
   },
   {
-    "name": "CB Hole 12",
+    "name": "CBE Hole 12",
     "region": "Cherry Blossom",
     "category": [
       "Cherry Blossom Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Progressive Stroke Limit:3|"
+    "requires": "|Cherry Blossom Course| AND |CBE Progressive Stroke Limit:3|"
   },
   {
-    "name": "CB Hole 13",
+    "name": "CBE Hole 13",
     "region": "Cherry Blossom",
     "category": [
       "Cherry Blossom Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Progressive Stroke Limit:1|"
+    "requires": "|Cherry Blossom Course| AND |CBE Progressive Stroke Limit:1|"
   },
   {
-    "name": "CB Hole 14",
+    "name": "CBE Hole 14",
     "region": "Cherry Blossom",
     "category": [
       "Cherry Blossom Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Progressive Stroke Limit:2|"
+    "requires": "|Cherry Blossom Course| AND |CBE Progressive Stroke Limit:2|"
   },
   {
-    "name": "CB Hole 15",
+    "name": "CBE Hole 15",
     "region": "Cherry Blossom",
     "category": [
       "Cherry Blossom Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Progressive Stroke Limit:2|"
+    "requires": "|Cherry Blossom Course| AND |CBE Progressive Stroke Limit:2|"
   },
   {
-    "name": "CB Hole 16",
+    "name": "CBE Hole 16",
     "region": "Cherry Blossom",
     "category": [
       "Cherry Blossom Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Progressive Stroke Limit:2|"
+    "requires": "|Cherry Blossom Course| AND |CBE Progressive Stroke Limit:2|"
   },
   {
-    "name": "CB Hole 17",
+    "name": "CBE Hole 17",
     "region": "Cherry Blossom",
     "category": [
       "Cherry Blossom Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Progressive Stroke Limit:2|"
+    "requires": "|Cherry Blossom Course| AND |CBE Progressive Stroke Limit:2|"
   },
   {
-    "name": "CB Hole 18",
+    "name": "CBE Hole 18",
     "region": "Cherry Blossom",
     "category": [
       "Cherry Blossom Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Progressive Stroke Limit:6|"
+    "requires": "|Cherry Blossom Course| AND |CBE Progressive Stroke Limit:6|"
   },
   {
-    "name": "CB Ball 1",
+    "name": "CBE Ball 1",
     "category": [
       "Cherry Blossom Lost Balls"
     ],
@@ -688,7 +688,7 @@
     "region": "Cherry Blossom"
   },
   {
-    "name": "CB Ball 2",
+    "name": "CBE Ball 2",
     "category": [
       "Cherry Blossom Lost Balls"
     ],
@@ -696,7 +696,7 @@
     "region": "Cherry Blossom"
   },
   {
-    "name": "CB Ball 3",
+    "name": "CBE Ball 3",
     "category": [
       "Cherry Blossom Lost Balls"
     ],
@@ -704,7 +704,7 @@
     "region": "Cherry Blossom"
   },
   {
-    "name": "CB Ball 4",
+    "name": "CBE Ball 4",
     "category": [
       "Cherry Blossom Lost Balls"
     ],
@@ -712,7 +712,7 @@
     "region": "Cherry Blossom"
   },
   {
-    "name": "CB Ball 5",
+    "name": "CBE Ball 5",
     "category": [
       "Cherry Blossom Lost Balls"
     ],
@@ -720,7 +720,7 @@
     "region": "Cherry Blossom"
   },
   {
-    "name": "CB Ball 6",
+    "name": "CBE Ball 6",
     "category": [
       "Cherry Blossom Lost Balls"
     ],
@@ -728,7 +728,7 @@
     "region": "Cherry Blossom"
   },
   {
-    "name": "CB Ball 7",
+    "name": "CBE Ball 7",
     "category": [
       "Cherry Blossom Lost Balls"
     ],
@@ -736,7 +736,7 @@
     "region": "Cherry Blossom"
   },
   {
-    "name": "CB Ball 8",
+    "name": "CBE Ball 8",
     "category": [
       "Cherry Blossom Lost Balls"
     ],
@@ -744,7 +744,7 @@
     "region": "Cherry Blossom"
   },
   {
-    "name": "CB Ball 9",
+    "name": "CBE Ball 9",
     "category": [
       "Cherry Blossom Lost Balls"
     ],
@@ -752,7 +752,7 @@
     "region": "Cherry Blossom"
   },
   {
-    "name": "CB Ball 10",
+    "name": "CBE Ball 10",
     "category": [
       "Cherry Blossom Lost Balls"
     ],
@@ -760,7 +760,7 @@
     "region": "Cherry Blossom"
   },
   {
-    "name": "CB Ball 11",
+    "name": "CBE Ball 11",
     "category": [
       "Cherry Blossom Lost Balls"
     ],
@@ -768,7 +768,7 @@
     "region": "Cherry Blossom"
   },
   {
-    "name": "CB Ball 12",
+    "name": "CBE Ball 12",
     "category": [
       "Cherry Blossom Lost Balls"
     ],
@@ -776,7 +776,7 @@
     "region": "Cherry Blossom"
   },
   {
-    "name": "CB Ball 13",
+    "name": "CBE Ball 13",
     "category": [
       "Cherry Blossom Lost Balls"
     ],
@@ -784,7 +784,7 @@
     "region": "Cherry Blossom"
   },
   {
-    "name": "CB Ball 14",
+    "name": "CBE Ball 14",
     "category": [
       "Cherry Blossom Lost Balls"
     ],
@@ -792,7 +792,7 @@
     "region": "Cherry Blossom"
   },
   {
-    "name": "CB Ball 15",
+    "name": "CBE Ball 15",
     "category": [
       "Cherry Blossom Lost Balls"
     ],
@@ -800,7 +800,7 @@
     "region": "Cherry Blossom"
   },
   {
-    "name": "CB Ball 16",
+    "name": "CBE Ball 16",
     "category": [
       "Cherry Blossom Lost Balls"
     ],
@@ -808,7 +808,7 @@
     "region": "Cherry Blossom"
   },
   {
-    "name": "CB Ball 17",
+    "name": "CBE Ball 17",
     "category": [
       "Cherry Blossom Lost Balls"
     ],
@@ -816,7 +816,7 @@
     "region": "Cherry Blossom"
   },
   {
-    "name": "CB Ball 18",
+    "name": "CBE Ball 18",
     "category": [
       "Cherry Blossom Lost Balls"
     ],
@@ -828,7 +828,7 @@
     "category": [
       "Cherry Blossom Hard Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Lost Ball:10| AND |CBH Progressive Stroke Limit:2|",
+    "requires": "|Cherry Blossom Course| AND |CBE Lost Ball:10| AND |CBH Progressive Stroke Limit:2|",
     "region": "Cherry Blossom Hard"
   },
   {
@@ -836,7 +836,7 @@
     "category": [
       "Cherry Blossom Hard Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Lost Ball:10| AND |CBH Progressive Stroke Limit:3|",
+    "requires": "|Cherry Blossom Course| AND |CBE Lost Ball:10| AND |CBH Progressive Stroke Limit:3|",
     "region": "Cherry Blossom Hard"
   },
   {
@@ -844,7 +844,7 @@
     "category": [
       "Cherry Blossom Hard Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Lost Ball:10| AND |CBH Progressive Stroke Limit:2|",
+    "requires": "|Cherry Blossom Course| AND |CBE Lost Ball:10| AND |CBH Progressive Stroke Limit:2|",
     "region": "Cherry Blossom Hard"
   },
   {
@@ -852,7 +852,7 @@
     "category": [
       "Cherry Blossom Hard Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Lost Ball:10| AND |CBH Progressive Stroke Limit:3|",
+    "requires": "|Cherry Blossom Course| AND |CBE Lost Ball:10| AND |CBH Progressive Stroke Limit:3|",
     "region": "Cherry Blossom Hard"
   },
   {
@@ -860,7 +860,7 @@
     "category": [
       "Cherry Blossom Hard Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Lost Ball:10| AND |CBH Progressive Stroke Limit:2|",
+    "requires": "|Cherry Blossom Course| AND |CBE Lost Ball:10| AND |CBH Progressive Stroke Limit:2|",
     "region": "Cherry Blossom Hard"
   },
   {
@@ -868,7 +868,7 @@
     "category": [
       "Cherry Blossom Hard Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Lost Ball:10| AND |CBH Progressive Stroke Limit:2|",
+    "requires": "|Cherry Blossom Course| AND |CBE Lost Ball:10| AND |CBH Progressive Stroke Limit:2|",
     "region": "Cherry Blossom Hard"
   },
   {
@@ -876,7 +876,7 @@
     "category": [
       "Cherry Blossom Hard Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Lost Ball:10| AND |CBH Progressive Stroke Limit:2|",
+    "requires": "|Cherry Blossom Course| AND |CBE Lost Ball:10| AND |CBH Progressive Stroke Limit:2|",
     "region": "Cherry Blossom Hard"
   },
   {
@@ -884,7 +884,7 @@
     "category": [
       "Cherry Blossom Hard Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Lost Ball:10| AND |CBH Progressive Stroke Limit:3|",
+    "requires": "|Cherry Blossom Course| AND |CBE Lost Ball:10| AND |CBH Progressive Stroke Limit:3|",
     "region": "Cherry Blossom Hard"
   },
   {
@@ -892,7 +892,7 @@
     "category": [
       "Cherry Blossom Hard Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Lost Ball:10| AND |CBH Progressive Stroke Limit:2|",
+    "requires": "|Cherry Blossom Course| AND |CBE Lost Ball:10| AND |CBH Progressive Stroke Limit:2|",
     "region": "Cherry Blossom Hard"
   },
   {
@@ -900,7 +900,7 @@
     "category": [
       "Cherry Blossom Hard Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Lost Ball:10| AND |CBH Progressive Stroke Limit:7|",
+    "requires": "|Cherry Blossom Course| AND |CBE Lost Ball:10| AND |CBH Progressive Stroke Limit:7|",
     "region": "Cherry Blossom Hard"
   },
   {
@@ -908,7 +908,7 @@
     "category": [
       "Cherry Blossom Hard Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Lost Ball:10| AND |CBH Progressive Stroke Limit:2|",
+    "requires": "|Cherry Blossom Course| AND |CBE Lost Ball:10| AND |CBH Progressive Stroke Limit:2|",
     "region": "Cherry Blossom Hard"
   },
   {
@@ -916,7 +916,7 @@
     "category": [
       "Cherry Blossom Hard Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Lost Ball:10| AND |CBH Progressive Stroke Limit:2|",
+    "requires": "|Cherry Blossom Course| AND |CBE Lost Ball:10| AND |CBH Progressive Stroke Limit:2|",
     "region": "Cherry Blossom Hard"
   },
   {
@@ -924,7 +924,7 @@
     "category": [
       "Cherry Blossom Hard Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Lost Ball:10| AND |CBH Progressive Stroke Limit:1|",
+    "requires": "|Cherry Blossom Course| AND |CBE Lost Ball:10| AND |CBH Progressive Stroke Limit:1|",
     "region": "Cherry Blossom Hard"
   },
   {
@@ -932,7 +932,7 @@
     "category": [
       "Cherry Blossom Hard Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Lost Ball:10| AND |CBH Progressive Stroke Limit:3|",
+    "requires": "|Cherry Blossom Course| AND |CBE Lost Ball:10| AND |CBH Progressive Stroke Limit:3|",
     "region": "Cherry Blossom Hard"
   },
   {
@@ -940,7 +940,7 @@
     "category": [
       "Cherry Blossom Hard Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Lost Ball:10| AND |CBH Progressive Stroke Limit:2|",
+    "requires": "|Cherry Blossom Course| AND |CBE Lost Ball:10| AND |CBH Progressive Stroke Limit:2|",
     "region": "Cherry Blossom Hard"
   },
   {
@@ -948,7 +948,7 @@
     "category": [
       "Cherry Blossom Hard Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Lost Ball:10| AND |CBH Progressive Stroke Limit:3|",
+    "requires": "|Cherry Blossom Course| AND |CBE Lost Ball:10| AND |CBH Progressive Stroke Limit:3|",
     "region": "Cherry Blossom Hard"
   },
   {
@@ -956,7 +956,7 @@
     "category": [
       "Cherry Blossom Hard Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Lost Ball:10| AND |CBH Progressive Stroke Limit:3|",
+    "requires": "|Cherry Blossom Course| AND |CBE Lost Ball:10| AND |CBH Progressive Stroke Limit:3|",
     "region": "Cherry Blossom Hard"
   },
   {
@@ -964,7 +964,7 @@
     "category": [
       "Cherry Blossom Hard Holes"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Lost Ball:10| AND |CBH Progressive Stroke Limit:5|",
+    "requires": "|Cherry Blossom Course| AND |CBE Lost Ball:10| AND |CBH Progressive Stroke Limit:5|",
     "region": "Cherry Blossom Hard"
   },
   {
@@ -972,7 +972,7 @@
     "category": [
       "Cherry Blossom Hard Foxhunt Clues"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Lost Ball:10|",
+    "requires": "|Cherry Blossom Course| AND |CBE Lost Ball:10|",
     "region": "Cherry Blossom Hard"
   },
   {
@@ -980,7 +980,7 @@
     "category": [
       "Cherry Blossom Hard Foxhunt Clues"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Lost Ball:10|",
+    "requires": "|Cherry Blossom Course| AND |CBE Lost Ball:10|",
     "region": "Cherry Blossom Hard"
   },
   {
@@ -988,7 +988,7 @@
     "category": [
       "Cherry Blossom Hard Foxhunt Clues"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Lost Ball:10|",
+    "requires": "|Cherry Blossom Course| AND |CBE Lost Ball:10|",
     "region": "Cherry Blossom Hard"
   },
   {
@@ -996,7 +996,7 @@
     "category": [
       "Cherry Blossom Hard Foxhunt Clues"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Lost Ball:10|",
+    "requires": "|Cherry Blossom Course| AND |CBE Lost Ball:10|",
     "region": "Cherry Blossom Hard"
   },
   {
@@ -1004,7 +1004,7 @@
     "category": [
       "Cherry Blossom Hard Foxhunt Clues"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Lost Ball:10|",
+    "requires": "|Cherry Blossom Course| AND |CBE Lost Ball:10|",
     "region": "Cherry Blossom Hard"
   },
   {
@@ -1012,7 +1012,7 @@
     "category": [
       "Cherry Blossom Hard Foxhunt Clues"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Lost Ball:10|",
+    "requires": "|Cherry Blossom Course| AND |CBE Lost Ball:10|",
     "region": "Cherry Blossom Hard"
   },
   {
@@ -1020,7 +1020,7 @@
     "category": [
       "Cherry Blossom Hard Foxhunt Clues"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Lost Ball:10|",
+    "requires": "|Cherry Blossom Course| AND |CBE Lost Ball:10|",
     "region": "Cherry Blossom Hard"
   },
   {
@@ -1028,7 +1028,7 @@
     "category": [
       "Cherry Blossom Hard Foxhunt Clues"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Lost Ball:10|",
+    "requires": "|Cherry Blossom Course| AND |CBE Lost Ball:10|",
     "region": "Cherry Blossom Hard"
   },
   {
@@ -1036,7 +1036,7 @@
     "category": [
       "Cherry Blossom Hard Foxhunt Clues"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Lost Ball:10|",
+    "requires": "|Cherry Blossom Course| AND |CBE Lost Ball:10|",
     "region": "Cherry Blossom Hard"
   },
   {
@@ -1044,7 +1044,7 @@
     "category": [
       "Cherry Blossom Hard Foxhunt Clues"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Lost Ball:10|",
+    "requires": "|Cherry Blossom Course| AND |CBE Lost Ball:10|",
     "region": "Cherry Blossom Hard"
   },
   {
@@ -1052,7 +1052,7 @@
     "category": [
       "Cherry Blossom Hard Foxhunt Clues"
     ],
-    "requires": "|Cherry Blossom Course| AND |CB Lost Ball:10|",
+    "requires": "|Cherry Blossom Course| AND |CBE Lost Ball:10|",
     "region": "Cherry Blossom Hard"
   },
   {
@@ -1061,16 +1061,16 @@
     "category": [
       "Goal"
     ],
-    "requires": "|TT Scorecard| AND |TTH Scorecard| AND |CB Scorecard| AND |CBH Scorecard|"
+    "requires": "|TTE Scorecard| AND |TTH Scorecard| AND |CBE Scorecard| AND |CBH Scorecard|"
   },
   {
-    "name": "TT Complete",
+    "name": "TTE Complete",
     "category": [
       "Course Completion"
     ],
-    "requires": ["TT Progressive Stroke Limit:5"],
+    "requires": ["TTE Progressive Stroke Limit:5"],
     "place_item": [
-      "TT Scorecard"
+      "TTE Scorecard"
     ]
   },
   {
@@ -1084,13 +1084,13 @@
     ]
   },
   {
-    "name": "CB Complete",
+    "name": "CBE Complete",
     "category": [
       "Course Completion"
     ],
-    "requires": [ "CB Progressive Stroke Limit:6" ],
+    "requires": [ "CBE Progressive Stroke Limit:6" ],
     "place_item": [
-      "CB Scorecard"
+      "CBE Scorecard"
     ]
   },
   {

@@ -19,7 +19,7 @@
   },
   {
     "count": "18",
-    "name": "TT Lost Ball",
+    "name": "TTE Lost Ball",
     "category": [
       "Lost Balls"
     ],
@@ -27,7 +27,7 @@
   },
   {
     "count": "18",
-    "name": "CB Lost Ball",
+    "name": "CBE Lost Ball",
     "category": [
       "Lost Balls"
     ],
@@ -47,7 +47,7 @@
   },
   {
     "count": "15",
-    "name": "TT Progressive Stroke Limit",
+    "name": "TTE Progressive Stroke Limit",
     "category": [
       "Tourist Trap"
     ],
@@ -63,7 +63,7 @@
   },
   {
     "count": "15",
-    "name": "CB Progressive Stroke Limit",
+    "name": "CBE Progressive Stroke Limit",
     "category": [
       "Cherry Blossom"
     ],
@@ -79,7 +79,7 @@
   },
   {
     "count": 1,
-    "name": "TT Scorecard",
+    "name": "TTE Scorecard",
     "category": [
       "Scorecards"
     ],
@@ -95,7 +95,7 @@
   },
   {
     "count": 1,
-    "name": "CB Scorecard",
+    "name": "CBE Scorecard",
     "category": [
       "Scorecards"
     ],
