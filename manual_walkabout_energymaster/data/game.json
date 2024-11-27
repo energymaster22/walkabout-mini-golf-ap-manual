@@ -1,0 +1,14 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
+  "game": "Walkabout",
+  "creator": "Energymaster",
+  "filler_item_name": "Pitching Wedge",
+  "starting_items": [
+    {
+      "item_categories": [
+        "Courses"
+      ],
+      "random": 1
+    }
+  ]
+}
