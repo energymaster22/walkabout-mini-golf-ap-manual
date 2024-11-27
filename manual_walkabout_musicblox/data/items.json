@@ -57,7 +57,7 @@
     "count": "15",
     "name": "TTH Progressive Stroke Limit",
     "category": [
-      "Tourist Trap"
+      "Tourist Trap Hard"
     ],
     "progression": true
   },
@@ -73,39 +73,39 @@
     "count": "15",
     "name": "CBH Progressive Stroke Limit",
     "category": [
-      "Cherry Blossom"
+      "Cherry Blossom Hard"
     ],
     "progression": true
   },
   {
     "count": 1,
-    "name": "TT Scoresheet",
+    "name": "TT Scorecard",
     "category": [
-      "Tourist Trap"
+      "Scorecards"
     ],
     "progression": true
   },
   {
     "count": 1,
-    "name": "TTH Scoresheet",
+    "name": "TTH Scorecard",
     "category": [
-      "Tourist Trap"
+      "Scorecards"
     ],
     "progression": true
   },
   {
     "count": 1,
-    "name": "CB Scoresheet",
+    "name": "CB Scorecard",
     "category": [
-      "Cherry Blossom"
+      "Scorecards"
     ],
     "progression": true
   },
   {
     "count": 1,
-    "name": "CBH Scoresheet",
+    "name": "CBH Scorecard",
     "category": [
-      "Cherry Blossom"
+      "Scorecards"
     ],
     "progression": true
   },
