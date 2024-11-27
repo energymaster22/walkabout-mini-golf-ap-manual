@@ -1,0 +1,30 @@
+{
+  "Tourist Trap": {
+    "connects_to": [
+      "Tourist Trap Hard"
+    ],
+    "requires": "|Tourist Trap Course|"
+  },
+  "Cherry Blossom": {
+    "connects_to": [
+      "Cherry Blossom Hard"
+    ],
+    "requires": "|Cherry Blossom Course|"
+  },
+  "Tourist Trap Hard": {
+    "connects_to": [],
+    "requires": "|Tourist Trap Course| AND |TT Lost Ball:10|"
+  },
+  "Cherry Blossom Hard": {
+    "connects_to": [],
+    "requires": "|Cherry Blossom Course| AND |CB Lost Ball:10|"
+  },
+  "The Shack": {
+    "starting": true,
+    "connects_to": [
+      "Tourist Trap",
+      "Cherry Blossom"
+    ],
+    "requires": []
+  }
+}
