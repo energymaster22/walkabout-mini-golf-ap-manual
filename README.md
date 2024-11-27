@@ -21,7 +21,7 @@ Create a new profile from the profiles screen to the right of the course select 
 ## Win Condition:
 Currently there is only one clear condition which is completing all the courses across easy and hard. After you complete each course, go to the "Course Completion" category to mark your completion and claim your score card for the course. Once you have all your score cards you can claim victory!
 
-## Variants
+## Variants:
 Currently we have two variants of the manual with slightly different logic:
 + Energymaster's variant expects you to do all the holes in order and be able to complete each hole before moving on to the next. This variant is best played in the normal play mode, resetting the course from the settings screen if you go over your stroke limit. Forfeiting holes that are already completed or checked via collect is optional.
 + MusicBlox's variant lets you do any hole in any order as long as you have access to the course. This variant is best played in the practice mode so you can move around different holes freely. Selecting the holes from the score card or from the god view will put your ball down on the tee of the chosen hole. One limitation of practice is you will need to keep track of your current stroke count in your head, as the practice mode does not have a stroke counter. If playing this variant you may want to go into your chosen courses and get under par on the easy variant of the course to unlock the hard in advance, as you may want to head into the hard before you grab lost balls or play the easy, you do still need the lost ball items and the easy course unlock to enter the hard.
