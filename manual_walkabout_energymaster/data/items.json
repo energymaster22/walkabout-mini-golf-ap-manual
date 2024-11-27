@@ -1,0 +1,178 @@
+[
+  {
+    "count": 1,
+    "name": "Tourist Trap Course",
+    "category": [
+      "Tourist Trap",
+      "Courses"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Cherry Blossom Course",
+    "category": [
+      "Cherry Blossom",
+      "Courses"
+    ],
+    "progression": true
+  },
+  {
+    "count": "18",
+    "name": "TT Lost Ball",
+    "category": [
+      "Lost Balls"
+    ],
+    "progression": true
+  },
+  {
+    "count": "18",
+    "name": "CB Lost Ball",
+    "category": [
+      "Lost Balls"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "TTH Club",
+    "category": [],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "CBH Club",
+    "category": [],
+    "filler": true
+  },
+  {
+    "count": "15",
+    "name": "TT Progressive Stroke Limit",
+    "category": [
+      "Tourist Trap"
+    ],
+    "progression": true
+  },
+  {
+    "count": "15",
+    "name": "TTH Progressive Stroke Limit",
+    "category": [
+      "Tourist Trap"
+    ],
+    "progression": true
+  },
+  {
+    "count": "15",
+    "name": "CB Progressive Stroke Limit",
+    "category": [
+      "Cherry Blossom"
+    ],
+    "progression": true
+  },
+  {
+    "count": "15",
+    "name": "CBH Progressive Stroke Limit",
+    "category": [
+      "Cherry Blossom"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "TT Scoresheet",
+    "category": [
+      "Tourist Trap"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "TTH Scoresheet",
+    "category": [
+      "Tourist Trap"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "CB Scoresheet",
+    "category": [
+      "Cherry Blossom"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "CBH Scoresheet",
+    "category": [
+      "Cherry Blossom"
+    ],
+    "progression": true
+  },
+  {
+    "count": "9",
+    "name": "Driver",
+    "category": [],
+    "filler": true
+  },
+  {
+    "count": "5",
+    "name": "5 Wood",
+    "category": [],
+    "filler": true
+  },
+  {
+    "count": "9",
+    "name": "9 Iron",
+    "category": [],
+    "filler": true
+  },
+  {
+    "count": "2",
+    "name": "Mashie-Niblick",
+    "category": [],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Baffing Spoon",
+    "category": [],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Mid-Mashie",
+    "category": [],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Cleek",
+    "category": [],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Lofter",
+    "category": [],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Pitching-Niblick",
+    "category": [],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Rut-Niblick",
+    "category": [],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Spade-Mashie",
+    "category": [],
+    "filler": true
+  }
+]
