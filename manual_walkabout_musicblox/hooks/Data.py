@@ -86,6 +86,34 @@ def after_load_location_file(location_table: list) -> list:
 # called after the locations.json file has been loaded, before any location loading or processing has occurred
 # if you need access to the locations after processing to add ids, etc., you should use the hooks in World.py
 def after_load_region_file(region_table: dict) -> dict:
+    courses = get_courses()
+    courseList = []
+    for course in courses:
+        #Check if the course is enabled via the yaml, otherwise don't put it in the world. Replace True with the proper check when implemented into YAML
+        if(True):
+            name = course[1]
+            abbreviation = course[0]
+
+            courseList.append(name)
+            
+            pendingJson = []
+            pendingHardJson = []
+
+            region_table[f"{name}"] = {
+                "connects_to": [f"{name} Hard"],
+                "requires": f"|{name} Course|"
+            }
+            region_table[f"{name} Hard"] = {
+                "connects_to": [],
+                "requires": f"|{name} Course| AND |{abbreviation}E Lost Ball:10|"
+            }            
+        else:
+            pass
+    region_table["The Shack"] = {
+        "starting": True,
+        "connects_to": courseList,
+        "requires": []
+    }
     return region_table
 
 # called after the categories.json file has been loaded
