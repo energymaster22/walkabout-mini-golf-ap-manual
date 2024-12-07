@@ -1,3 +1,5 @@
+import re
+from .functions import get_courses
 # called after the game.json file has been loaded
 def after_load_game_file(game_table: dict) -> dict:
     return game_table
@@ -14,6 +16,61 @@ def after_load_progressive_item_file(progressive_item_table: list) -> list:
 # called after the locations.json file has been loaded, before any location loading or processing has occurred
 # if you need access to the locations after processing to add ids, etc., you should use the hooks in World.py
 def after_load_location_file(location_table: list) -> list:
+    courses = get_courses()
+    for course in courses:
+        #Check if the course is enabled via the yaml, otherwise don't put it in the world. Replace True with the proper check when implemented into YAML
+        if(True):
+            name = course[1]
+            abbreviation = course[0]
+            branchCount = course[38]
+            pendingJson = []
+            pendingHardJson = []
+            pendingBallJson = []
+
+            strokeMinMax = 0
+            strokeMinMaxHard = 0
+            
+            for i in range(18):
+                if (strokeMinMax < course[i + 2]):
+                    strokeMinMax = course[i + 2]
+                if (strokeMinMaxHard < course[i + 20]):
+                    strokeMinMaxHard = course[i + 20]
+                #Add hole and lost ball checks
+                pendingJson.append(
+                    {
+                        "name": f"{abbreviation}E Hole {i + 1}",
+                        "region": f"{name}",
+                        "category": [f"{name} Holes"],
+                        "requires": f"|{name} Course| AND (({{YamlDisabled(linear_logic)}} AND |{abbreviation}E Progressive Stroke Limit:{course[i + 2]}|) OR ({{YamlEnabled(linear_logic)}} AND |{abbreviation}E Progressive Stroke Limit:{strokeMinMax}|))"
+                    }
+                )
+                pendingHardJson.append(
+                    {
+                        "name": f"{abbreviation}H Hole {i + 1}",
+                        "region": f"{name} Hard",
+                        "category": [f"{name} Hard Holes"],
+                        "requires": f"|{name} Course| AND (({{YamlDisabled(linear_logic)}} AND |{abbreviation}H Progressive Stroke Limit:{course[i + 2]}|) OR ({{YamlEnabled(linear_logic)}} AND |{abbreviation}H Progressive Stroke Limit:{strokeMinMaxHard}|))"
+                    }
+                )
+                pendingBallJson.append(
+                    {
+                        "name": f"{abbreviation}E Ball {i + 1}",
+                        "region": f"{name}",
+                        "category": [f"{name} Lost Balls"],
+                        "requires": f"|{name} Course|"
+                    }
+                )
+            location_table.extend(pendingJson)
+            location_table.extend(pendingHardJson)
+            location_table.extend(pendingBallJson)
+
+            pendingJson = []
+
+            for i in range (branchCount):
+                pass #Splice foxhunt clue branch into its components, then add foxhunt checks
+            location_table.extend(pendingJson)
+        else:
+            pass
     return location_table
 
 # called after the locations.json file has been loaded, before any location loading or processing has occurred
