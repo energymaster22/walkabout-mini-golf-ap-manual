@@ -66,8 +66,18 @@ def after_load_location_file(location_table: list) -> list:
 
             pendingJson = []
 
-            for i in range (branchCount):
-                pass #Splice foxhunt clue branch into its components, then add foxhunt checks
+            for i in range (branchCount): #Splice foxhunt clue branch into its components, then add foxhunt checks
+                branch = re.split('(\d+)', course[i + 40])
+                for j in range (int(branch[1])):
+                    pendingJson.append(
+                        {
+                            "name": f"{(abbreviation + "H Clue " + str(j + 1)) if branch[0] == "SF" else branch[0] if int(branch[1]) == 1 else (branch[0] + " Clue " + str(j + 1))}",
+                            "region": f"{name} Hard",
+                            "category": [f"{name} Hard Foxhunt Clues"],
+                            "requires": f"|{name} Course| AND |{abbreviation}E Lost Ball:10|"
+                        }
+                    )
+                
             location_table.extend(pendingJson)
         else:
             pass
