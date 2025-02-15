@@ -4,9 +4,5 @@
   "creator": "MusicBlox",
   "filler_item_name": "Pitching Wedge",
   "starting_items": [
-    {
-      "item_categories": [ "Courses" ],
-      "random":  1
-    }
   ]
 }
