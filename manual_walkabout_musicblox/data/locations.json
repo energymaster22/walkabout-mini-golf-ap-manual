@@ -248,7 +248,7 @@
     "requires": ""
   },
   {
-    "name": "Shack Target 1",
+    "name": "Shack Putter Target 1",
     "region": "The Shack",
     "category": [
       "The Shack Targets"
@@ -256,7 +256,7 @@
     "requires": ""
   },
   {
-    "name": "Shack Target 2",
+    "name": "Shack Putter Target 2",
     "region": "The Shack",
     "category": [
       "The Shack Targets"
@@ -264,7 +264,7 @@
     "requires": ""
   },
   {
-    "name": "Shack Target 3",
+    "name": "Shack Putter Target 3",
     "region": "The Shack",
     "category": [
       "The Shack Targets"
@@ -272,7 +272,7 @@
     "requires": ""
   },
   {
-    "name": "Shack Target 4",
+    "name": "Shack Putter Target 4",
     "region": "The Shack",
     "category": [
       "The Shack Targets"
@@ -280,7 +280,7 @@
     "requires": ""
   },
   {
-    "name": "Shack Target 5",
+    "name": "Shack Putter Target 5",
     "region": "The Shack",
     "category": [
       "The Shack Targets"
@@ -288,7 +288,7 @@
     "requires": ""
   },
   {
-    "name": "Shack Target 6",
+    "name": "Shack Putter Target 6",
     "region": "The Shack",
     "category": [
       "The Shack Targets"
@@ -296,7 +296,7 @@
     "requires": ""
   },
   {
-    "name": "Shack Target 7",
+    "name": "Shack Putter Target 7",
     "region": "The Shack",
     "category": [
       "The Shack Targets"
@@ -304,12 +304,164 @@
     "requires": ""
   },
   {
-    "name": "Shack Target 8",
+    "name": "Shack Putter Target 8",
     "region": "The Shack",
     "category": [
       "The Shack Targets"
     ],
     "requires": ""
+  },
+  {
+    "name": "Shack Putter Target 9",
+    "region": "The Shack",
+    "category": [
+      "The Shack Targets"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Shack Putter Target 10",
+    "region": "The Shack",
+    "category": [
+      "The Shack Targets"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Shack Putter Target 11",
+    "region": "The Shack",
+    "category": [
+      "The Shack Targets"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Shack Putter Target 12",
+    "region": "The Shack",
+    "category": [
+      "The Shack Targets"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Shack Slingshot Target 1",
+    "region": "The Shack",
+    "category": [
+      "The Shack Targets"
+    ],
+    "requires": "|Slingshot|"
+  },
+  {
+    "name": "Shack Slingshot Target 2",
+    "region": "The Shack",
+    "category": [
+      "The Shack Targets"
+    ],
+    "requires": "|Slingshot|"
+  },
+  {
+    "name": "Shack Slingshot Target 3",
+    "region": "The Shack",
+    "category": [
+      "The Shack Targets"
+    ],
+    "requires": "|Slingshot|"
+  },
+  {
+    "name": "Shack Slingshot Target 4",
+    "region": "The Shack",
+    "category": [
+      "The Shack Targets"
+    ],
+    "requires": "|Slingshot|"
+  },
+  {
+    "name": "Shack Slingshot Target 5",
+    "region": "The Shack",
+    "category": [
+      "The Shack Targets"
+    ],
+    "requires": "|Slingshot|"
+  },
+  {
+    "name": "Shack Slingshot Target 6",
+    "region": "The Shack",
+    "category": [
+      "The Shack Targets"
+    ],
+    "requires": "|Slingshot|"
+  },
+  {
+    "name": "Shack Slingshot Target 7",
+    "region": "The Shack",
+    "category": [
+      "The Shack Targets"
+    ],
+    "requires": "|Slingshot|"
+  },
+  {
+    "name": "Shack Slingshot Target 8",
+    "region": "The Shack",
+    "category": [
+      "The Shack Targets"
+    ],
+    "requires": "|Slingshot|"
+  },
+  {
+    "name": "Shack Slingshot Target 9",
+    "region": "The Shack",
+    "category": [
+      "The Shack Targets"
+    ],
+    "requires": "|Slingshot|"
+  },
+  {
+    "name": "Shack Slingshot Target 10",
+    "region": "The Shack",
+    "category": [
+      "The Shack Targets"
+    ],
+    "requires": "|Slingshot|"
+  },
+  {
+    "name": "Shack Slingshot Target 11",
+    "region": "The Shack",
+    "category": [
+      "The Shack Targets"
+    ],
+    "requires": "|Slingshot|"
+  },
+  {
+    "name": "Shack Slingshot Target 12",
+    "region": "The Shack",
+    "category": [
+      "The Shack Targets"
+    ],
+    "requires": "|Slingshot|"
+  },
+  {
+    "name": "Shack Slingshot Target 13",
+    "region": "The Shack",
+    "category": [
+      "The Shack Targets"
+    ],
+    "requires": "|Slingshot|"
+  },
+  {
+    "name": "Shack Slingshot Target 14",
+    "region": "The Shack",
+    "category": [
+      "The Shack Targets"
+    ],
+    "requires": "|Slingshot|"
+  },
+  {
+    "name": "Shack Slingshot Target 15",
+    "region": "The Shack",
+    "category": [
+      "The Shack Targets"
+    ],
+    "requires": "|Slingshot|"
   },
   {
     "name": "TTE Hole 1",
