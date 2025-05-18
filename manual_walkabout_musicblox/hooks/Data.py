@@ -10,9 +10,8 @@ def after_load_item_file(item_table: list) -> list:
     for course in courses:
         #Check if the course is enabled via the yaml, otherwise don't put it in the world. Replace True with the proper check when implemented into YAML
         if(True):
-            name = course[1]
-            abbreviation = course[0]
-            branchCount = course[38]
+            name = course[1].strip()
+            abbreviation = course[0].strip()
             pendingJson = []
             pendingHardJson = []
             pendingLimitJson = []
@@ -56,7 +55,7 @@ def after_load_item_file(item_table: list) -> list:
             pendingHardJson.append(
                  {
                     "count": 1,
-                    "name": "Tourist Trap Course",
+                    "name": f"{name} Hard Course",
                     "category": [
                     "Tourist Trap",
                     "Courses"
@@ -67,7 +66,7 @@ def after_load_item_file(item_table: list) -> list:
             pendingLimitHardJson.append(
                 {
                     "count": "15",
-                    "name": "TTE Progressive Stroke Limit",
+                    "name": f"{abbreviation}H Progressive Stroke Limit",
                     "category": [
                     "Tourist Trap"
                     ],
@@ -128,20 +127,22 @@ def after_load_location_file(location_table: list) -> list:
     for course in courses:
         #Check if the course is enabled via the yaml, otherwise don't put it in the world. Replace True with the proper check when implemented into YAML
         if(True):
-            name = course[1]
-            abbreviation = course[0]
-            branchCount = course[38]
+            name = course[1].strip()
+            abbreviation = course[0].strip()
+            branchCount = int(course[38])
             pendingJson = []
             pendingHardJson = []
+            pendingCompleteJson = []
+            pendingHardCompleteJson = []
             pendingBallJson = []
 
             strokeMinMax = 0
             strokeMinMaxHard = 0
             
             for i in range(18):
-                if (strokeMinMax < course[i + 2]):
+                if (int(strokeMinMax) < int(course[i + 2])):
                     strokeMinMax = course[i + 2]
-                if (strokeMinMaxHard < course[i + 20]):
+                if (int(strokeMinMaxHard) < int(course[i + 20])):
                     strokeMinMaxHard = course[i + 20]
                 #Add hole and lost ball checks
                 pendingJson.append(
@@ -168,14 +169,41 @@ def after_load_location_file(location_table: list) -> list:
                         "requires": f"|{name} Course|"
                     }
                 )
+            pendingCompleteJson.append(
+                {
+                    "name": f"{abbreviation}E Complete",
+                    "category": [
+                    "Course Completion"
+                    ],
+                    "requires": [f"{abbreviation}E Progressive Stroke Limit:5"],
+                    "place_item": [
+                    f"{abbreviation}E Scorecard"
+                    ]
+                },
+            )
+            print(pendingCompleteJson[0])
+            pendingHardCompleteJson.append(
+                {
+                    "name": f"{abbreviation}H Complete",
+                    "category": [
+                    "Course Completion"
+                    ],
+                    "requires": [f"{abbreviation}H Progressive Stroke Limit:5"],
+                    "place_item": [
+                    f"{abbreviation}H Scorecard"
+                    ]
+                },
+            )
             location_table.extend(pendingJson)
             location_table.extend(pendingHardJson)
             location_table.extend(pendingBallJson)
+            location_table.extend(pendingCompleteJson)
+            location_table.extend(pendingHardCompleteJson)
 
             pendingJson = []
 
             for i in range (branchCount): #Splice foxhunt clue branch into its components, then add foxhunt checks
-                branch = re.split('(\d+)', course[i + 40])
+                branch = re.split('(\d+)', course[i + 39])
                 for j in range (int(branch[1])):
                     pendingJson.append(
                         {
@@ -199,8 +227,8 @@ def after_load_region_file(region_table: dict) -> dict:
     for course in courses:
         #Check if the course is enabled via the yaml, otherwise don't put it in the world. Replace True with the proper check when implemented into YAML
         if(True):
-            name = course[1]
-            abbreviation = course[0]
+            name = course[1].strip()
+            abbreviation = course[0].strip()
 
             courseList.append(name)
             

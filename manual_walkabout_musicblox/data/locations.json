@@ -6,45 +6,5 @@
       "Goal"
     ],
     "requires": "|TTE Scorecard| AND |TTH Scorecard| AND |CBE Scorecard| AND |CBH Scorecard|"
-  },
-  {
-    "name": "TTE Complete",
-    "category": [
-      "Course Completion"
-    ],
-    "requires": ["TTE Progressive Stroke Limit:5"],
-    "place_item": [
-      "TTE Scorecard"
-    ]
-  },
-  {
-    "name": "TTH Complete",
-    "category": [
-      "Course Completion"
-    ],
-    "requires": [ "TTH Progressive Stroke Limit:5" ],
-    "place_item": [
-      "TTH Scorecard"
-    ]
-  },
-  {
-    "name": "CBE Complete",
-    "category": [
-      "Course Completion"
-    ],
-    "requires": [ "CBE Progressive Stroke Limit:6" ],
-    "place_item": [
-      "CBE Scorecard"
-    ]
-  },
-  {
-    "name": "CBH Complete",
-    "category": [
-      "Course Completion"
-    ],
-    "requires": [ "CBH Progressive Stroke Limit:7" ],
-    "place_item": [
-      "CBH Scorecard"
-    ]
   }
 ]
