@@ -6,6 +6,114 @@ def after_load_game_file(game_table: dict) -> dict:
 # called after the items.json file has been loaded, before any item loading or processing has occurred
 # if you need access to the items after processing to add ids, etc., you should use the hooks in World.py
 def after_load_item_file(item_table: list) -> list:
+    courses = get_courses()
+    for course in courses:
+        #Check if the course is enabled via the yaml, otherwise don't put it in the world. Replace True with the proper check when implemented into YAML
+        if(True):
+            name = course[1]
+            abbreviation = course[0]
+            branchCount = course[38]
+            pendingJson = []
+            pendingHardJson = []
+            pendingLimitJson = []
+            pendingLimitHardJson = []
+            pendingClubJson = []
+            pendingBallJson = []
+            pendingScoreJson = []
+            pendingHardScoreJson = []
+
+            pendingJson.append(
+                {
+                    "count": 1,
+                    "name": f"{name} Course",
+                    "category": [
+                    "Tourist Trap",
+                    "Courses"
+                    ],
+                    "progression": True
+                }
+            )
+            pendingBallJson.append(
+                 {
+                    "count": "18",
+                    "name": f"{abbreviation}E Lost Ball",
+                    "category": [
+                    "Lost Balls"
+                    ],
+                    "progression": True
+                },
+            )
+            pendingLimitJson.append(
+                {
+                    "count": "15",
+                    "name": f"{abbreviation}E Progressive Stroke Limit",
+                    "category": [
+                    "Tourist Trap"
+                    ],
+                    "progression": True
+                }
+            )
+            pendingHardJson.append(
+                 {
+                    "count": 1,
+                    "name": "Tourist Trap Course",
+                    "category": [
+                    "Tourist Trap",
+                    "Courses"
+                    ],
+                    "progression": True
+                }
+            )
+            pendingLimitHardJson.append(
+                {
+                    "count": "15",
+                    "name": "TTE Progressive Stroke Limit",
+                    "category": [
+                    "Tourist Trap"
+                    ],
+                    "progression": True
+                }
+            )
+            pendingClubJson.append(
+                {
+                    "count": 1,
+                    "name": f"{abbreviation}H Club",
+                    "category": [],
+                    "filler": True
+                },
+            )
+            pendingScoreJson.append(
+                {
+                    "count": 1,
+                    "name": f"{abbreviation}E Scorecard",
+                    "category": [
+                    "Scorecards"
+                    ],
+                    "progression": True
+                }
+            )
+            pendingHardScoreJson.append(
+                {
+                    "count": 1,
+                    "name": f"{abbreviation}H Scorecard",
+                    "category": [
+                    "Scorecards"
+                    ],
+                    "progression": True
+                }
+            )
+            
+            item_table.extend(pendingJson)
+            item_table.extend(pendingHardJson)
+            item_table.extend(pendingLimitJson)
+            item_table.extend(pendingLimitHardJson)
+            item_table.extend(pendingClubJson)
+            item_table.extend(pendingBallJson)
+            item_table.extend(pendingScoreJson)
+            item_table.extend(pendingHardScoreJson)
+
+        else:
+            pass
     return item_table
 
 # NOTE: Progressive items are not currently supported in Manual. Once they are,
