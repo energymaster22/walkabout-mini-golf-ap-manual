@@ -5,6 +5,6 @@
     "category": [
       "Goal"
     ],
-    "requires": "|TTE Scorecard| AND |TTH Scorecard| AND |CBE Scorecard| AND |CBH Scorecard|"
+    "requires": "|TTW Scorecard| AND |TTH Scorecard| AND |CBE Scorecard| AND |CBH Scorecard|"
   }
 ]
