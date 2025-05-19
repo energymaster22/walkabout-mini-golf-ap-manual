@@ -40,7 +40,8 @@ class Courses(OptionSet):
     display_name = "Courses"
     default = ["TT", "CB"]
     valid_keys = ["TT", "CB", "SS", "AM", "OG", "TS", "BB", "QV", "GB", "SL", "SW", "ED", "LB", "20", "MY", 
-                  "AT", "UT", "ZZ", "JC", "LL", "AL", "WW", "MW", "AW", "IL", "VN", "WG", "MG", "8B", "HH"]
+                  "AT", "UT", "ZZ", "JC", "LL", "AL", "WW", "MW", "AW", "IL", "VN", "WG", "MG", "8B", "HH",
+                  "EL", "MO", "RC"]
 
 
 
