@@ -17,3 +17,6 @@ def get_courses():
                 courses.append(course)
 
     return courses
+
+def check_course_active(): #Check if the course is selected within the yaml options. Always returns true as a placeholder.
+    return True

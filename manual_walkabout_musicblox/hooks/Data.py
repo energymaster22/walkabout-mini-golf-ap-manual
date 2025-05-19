@@ -1,5 +1,7 @@
 import re
+import json
 from .functions import get_courses
+from .functions import check_course_active
 # called after the game.json file has been loaded
 def after_load_game_file(game_table: dict) -> dict:
     return game_table
@@ -8,8 +10,8 @@ def after_load_game_file(game_table: dict) -> dict:
 def after_load_item_file(item_table: list) -> list:
     courses = get_courses()
     for course in courses:
-        #Check if the course is enabled via the yaml, otherwise don't put it in the world. Replace True with the proper check when implemented into YAML
-        if(True):
+        #Check if the course is enabled via the yaml, otherwise don't put it in the world.
+        if(check_course_active()):
             name = course[1].strip()
             abbreviation = course[0].strip()
             pendingJson = []
@@ -26,7 +28,7 @@ def after_load_item_file(item_table: list) -> list:
                     "count": 1,
                     "name": f"{name} Course",
                     "category": [
-                    "Tourist Trap",
+                    f"{name}",
                     "Courses"
                     ],
                     "progression": True
@@ -47,7 +49,7 @@ def after_load_item_file(item_table: list) -> list:
                     "count": "15",
                     "name": f"{abbreviation}E Progressive Stroke Limit",
                     "category": [
-                    "Tourist Trap"
+                    f"{name}"
                     ],
                     "progression": True
                 }
@@ -57,7 +59,7 @@ def after_load_item_file(item_table: list) -> list:
                     "count": 1,
                     "name": f"{name} Hard Course",
                     "category": [
-                    "Tourist Trap",
+                    f"{name}",
                     "Courses"
                     ],
                     "progression": True
@@ -68,7 +70,7 @@ def after_load_item_file(item_table: list) -> list:
                     "count": "15",
                     "name": f"{abbreviation}H Progressive Stroke Limit",
                     "category": [
-                    "Tourist Trap"
+                    f"{name}"
                     ],
                     "progression": True
                 }
@@ -113,6 +115,7 @@ def after_load_item_file(item_table: list) -> list:
 
         else:
             pass
+    print(item_table)
     return item_table
 
 # NOTE: Progressive items are not currently supported in Manual. Once they are,
@@ -124,9 +127,11 @@ def after_load_progressive_item_file(progressive_item_table: list) -> list:
 # if you need access to the locations after processing to add ids, etc., you should use the hooks in World.py
 def after_load_location_file(location_table: list) -> list:
     courses = get_courses()
+    victoryCourseList = ""
+    pendingVictoryJson = []
     for course in courses:
-        #Check if the course is enabled via the yaml, otherwise don't put it in the world. Replace True with the proper check when implemented into YAML
-        if(True):
+        #Check if the course is enabled via the yaml, otherwise don't put it in the world.
+        if(check_course_active()):
             name = course[1].strip()
             abbreviation = course[0].strip()
             branchCount = int(course[38])
@@ -138,6 +143,8 @@ def after_load_location_file(location_table: list) -> list:
 
             strokeMinMax = 0
             strokeMinMaxHard = 0
+
+            victoryCourseList = victoryCourseList + f"|{abbreviation}E Scorecard| AND |{abbreviation}H Scorecard| AND "
             
             for i in range(18):
                 if (int(strokeMinMax) < int(course[i + 2])):
@@ -217,6 +224,20 @@ def after_load_location_file(location_table: list) -> list:
             location_table.extend(pendingJson)
         else:
             pass
+
+    pendingVictoryJson.append( 
+        {
+            "victory": True,
+            "name": "All Courses Complete",
+            "category": [
+            "Goal"
+            ],
+            "requires": f"{(victoryCourseList[:-5] if len(victoryCourseList) > 4 else "")}"
+        }
+    )
+
+    location_table.extend(pendingVictoryJson)
+
     return location_table
 
 # called after the locations.json file has been loaded, before any location loading or processing has occurred
