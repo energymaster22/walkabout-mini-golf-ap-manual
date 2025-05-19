@@ -1,5 +1,11 @@
 [
   {
+    "count": 1,
+    "name": "Slingshot",
+    "category": [],
+    "progression": true
+  },
+  {
     "count": "8",
     "name": "Driver",
     "category": [],
