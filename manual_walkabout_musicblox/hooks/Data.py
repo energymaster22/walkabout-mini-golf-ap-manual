@@ -115,7 +115,6 @@ def after_load_item_file(item_table: list) -> list:
 
         else:
             pass
-    print(item_table)
     return item_table
 
 # NOTE: Progressive items are not currently supported in Manual. Once they are,
@@ -188,7 +187,6 @@ def after_load_location_file(location_table: list) -> list:
                     ]
                 },
             )
-            print(pendingCompleteJson[0])
             pendingHardCompleteJson.append(
                 {
                     "name": f"{abbreviation}H Complete",
