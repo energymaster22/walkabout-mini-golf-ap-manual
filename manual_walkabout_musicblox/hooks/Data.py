@@ -232,7 +232,7 @@ def after_load_location_file(location_table: list) -> list:
             "category": [
             "Goal"
             ],
-            "requires": f"{(victoryCourseList[:-5] if len(victoryCourseList) > 4 else "")}"
+            "requires": "{requireSelectedCourses()}"
         }
     )
 

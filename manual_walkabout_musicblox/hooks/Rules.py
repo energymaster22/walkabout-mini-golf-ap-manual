@@ -1,6 +1,6 @@
 from typing import Optional
 from worlds.AutoWorld import World
-from ..Helpers import clamp, get_items_with_value
+from ..Helpers import clamp, get_items_with_value, is_option_enabled, get_option_value
 from BaseClasses import MultiWorld, CollectionState
 
 import re
@@ -135,3 +135,10 @@ def canReachLocation(world: World, multiworld: MultiWorld, state: CollectionStat
     if state.can_reach_location(location, player):
         return True
     return False
+
+def requireSelectedCourses(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
+    victoryCourseList = ""
+    for abbreviation in get_option_value(multiworld, player, 'courses'):
+        victoryCourseList = victoryCourseList + f"|{abbreviation}E Scorecard| AND |{abbreviation}H Scorecard| AND "
+    
+    return f"{(victoryCourseList[:-5] if len(victoryCourseList) > 4 else "")}"
