@@ -18,5 +18,18 @@ def get_courses():
 
     return courses
 
-def check_course_active(): #Check if the course is selected within the yaml options. Always returns true as a placeholder.
-    return True
+def check_course_active(subj, coursesActive): #Check if the course is selected within the yaml options. Always returns true as a placeholder.
+    
+    if subj.get('category'):
+        if isinstance(subj.get('category')[0], str):
+            if len(subj.get('category')[0]) == 2:    
+                if subj.get('category')[0] in coursesActive:
+                    return True
+                else:
+                    return False
+            else:
+                return True
+        else:
+            return True
+    else:
+        return True

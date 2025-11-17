@@ -14,6 +14,8 @@ from ..Data import game_table, item_table, location_table, region_table
 # These helper methods allow you to determine if an option has been set, or what its value is, for any player in the multiworld
 from ..Helpers import is_option_enabled, get_option_value
 
+from .functions import check_course_active
+
 # calling logging.info("message") anywhere below in this file will output the message to both console and log file
 import logging
 
@@ -40,6 +42,11 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to remove locations from the world
     locationNamesToRemove = [] # List of location names
 
+    for location in location_table:
+         if not check_course_active(location, get_option_value(multiworld, player, "courses")):
+            locationNamesToRemove.append(location.get('name'))
+             
+
     # Add your code here to calculate which locations to remove
 
     for region in multiworld.regions:
@@ -59,13 +66,32 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     # Use this hook to remove items from the item pool
     itemNamesToRemove = [] # List of item names
 
+    for item in item_table:
+         itemCount = 1
+         if not check_course_active(item, get_option_value(multiworld, player, "courses")):
+            if item.get('count'):
+                print(item.get('name'))
+                print(item.get('count'))
+                try:
+                    itemCount = int(item.get('count'))
+                except:
+                    print('not a string that works')
+                    print(item.get('count'))
+            for i in range(int(item.get('count'))):
+                itemNamesToRemove.append(item.get('name'))
+
     # Add your code here to calculate which items to remove.
     #
     # Because multiple copies of an item can exist, you need to add an item name
     # to the list multiple times if you want to remove multiple copies of it.
 
+    print('items pending removal')
+    print(itemNamesToRemove)
+
     for itemName in itemNamesToRemove:
         item = next(i for i in item_pool if i.name == itemName)
+        print('Removing Item:')
+        print(item)
         item_pool.remove(item)
 
     return item_pool
