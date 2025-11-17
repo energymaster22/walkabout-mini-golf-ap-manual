@@ -28,6 +28,7 @@ def after_load_item_file(item_table: list) -> list:
                     "count": 1,
                     "name": f"{name} Course",
                     "category": [
+                    f"{abbreviation}",
                     f"{name}",
                     "Courses"
                     ],
@@ -39,6 +40,7 @@ def after_load_item_file(item_table: list) -> list:
                     "count": "18",
                     "name": f"{abbreviation}E Lost Ball",
                     "category": [
+                    f"{abbreviation}",
                     "Lost Balls"
                     ],
                     "progression": True
@@ -49,6 +51,7 @@ def after_load_item_file(item_table: list) -> list:
                     "count": "15",
                     "name": f"{abbreviation}E Progressive Stroke Limit",
                     "category": [
+                    f"{abbreviation}",
                     f"{name}"
                     ],
                     "progression": True
@@ -59,6 +62,7 @@ def after_load_item_file(item_table: list) -> list:
                     "count": 1,
                     "name": f"{name} Hard Course",
                     "category": [
+                    f"{abbreviation}",
                     f"{name}",
                     "Courses"
                     ],
@@ -70,6 +74,7 @@ def after_load_item_file(item_table: list) -> list:
                     "count": "15",
                     "name": f"{abbreviation}H Progressive Stroke Limit",
                     "category": [
+                    f"{abbreviation}",
                     f"{name}"
                     ],
                     "progression": True
@@ -79,7 +84,9 @@ def after_load_item_file(item_table: list) -> list:
                 {
                     "count": 1,
                     "name": f"{abbreviation}H Club",
-                    "category": [],
+                    "category": [
+                    f"{abbreviation}"
+                    ],
                     "filler": True
                 },
             )
@@ -88,6 +95,7 @@ def after_load_item_file(item_table: list) -> list:
                     "count": 1,
                     "name": f"{abbreviation}E Scorecard",
                     "category": [
+                    f"{abbreviation}"
                     "Scorecards"
                     ],
                     "progression": True
@@ -98,6 +106,7 @@ def after_load_item_file(item_table: list) -> list:
                     "count": 1,
                     "name": f"{abbreviation}H Scorecard",
                     "category": [
+                    f"{abbreviation}",
                     "Scorecards"
                     ],
                     "progression": True
@@ -155,7 +164,7 @@ def after_load_location_file(location_table: list) -> list:
                     {
                         "name": f"{abbreviation}E Hole {i + 1}",
                         "region": f"{name}",
-                        "category": [f"{name} Holes"],
+                        "category": [f"{abbreviation}", f"{name} Holes"],
                         "requires": f"|{name} Course| AND (({{YamlDisabled(linear_logic)}} AND |{abbreviation}E Progressive Stroke Limit:{course[i + 2]}|) OR ({{YamlEnabled(linear_logic)}} AND |{abbreviation}E Progressive Stroke Limit:{strokeMinMax}|))"
                     }
                 )
@@ -163,7 +172,7 @@ def after_load_location_file(location_table: list) -> list:
                     {
                         "name": f"{abbreviation}H Hole {i + 1}",
                         "region": f"{name} Hard",
-                        "category": [f"{name} Hard Holes"],
+                        "category": [f"{abbreviation}", f"{name} Hard Holes"],
                         "requires": f"|{name} Course| AND (({{YamlDisabled(linear_logic)}} AND |{abbreviation}H Progressive Stroke Limit:{course[i + 2]}|) OR ({{YamlEnabled(linear_logic)}} AND |{abbreviation}H Progressive Stroke Limit:{strokeMinMaxHard}|))"
                     }
                 )
@@ -171,7 +180,7 @@ def after_load_location_file(location_table: list) -> list:
                     {
                         "name": f"{abbreviation}E Ball {i + 1}",
                         "region": f"{name}",
-                        "category": [f"{name} Lost Balls"],
+                        "category": [f"{abbreviation}", f"{name} Lost Balls"],
                         "requires": f"|{name} Course|"
                     }
                 )
@@ -179,6 +188,7 @@ def after_load_location_file(location_table: list) -> list:
                 {
                     "name": f"{abbreviation}E Complete",
                     "category": [
+                    f"{abbreviation}",
                     "Course Completion"
                     ],
                     "requires": [f"{abbreviation}E Progressive Stroke Limit:5"],
@@ -191,6 +201,7 @@ def after_load_location_file(location_table: list) -> list:
                 {
                     "name": f"{abbreviation}H Complete",
                     "category": [
+                    f"{abbreviation}",
                     "Course Completion"
                     ],
                     "requires": [f"{abbreviation}H Progressive Stroke Limit:5"],
@@ -214,7 +225,7 @@ def after_load_location_file(location_table: list) -> list:
                         {
                             "name": f"{(abbreviation + "H Clue " + str(j + 1)) if branch[0] == "SF" else branch[0] if int(branch[1]) == 1 else (branch[0] + " Clue " + str(j + 1))}",
                             "region": f"{name} Hard",
-                            "category": [f"{name} Hard Foxhunt Clues"],
+                            "category": [f"{abbreviation}", f"{name} Hard Foxhunt Clues"],
                             "requires": f"|{name} Course| AND |{abbreviation}E Lost Ball:10|"
                         }
                     )
