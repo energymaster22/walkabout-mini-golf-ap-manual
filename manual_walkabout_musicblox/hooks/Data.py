@@ -287,3 +287,8 @@ def after_load_meta_file(meta_table: dict) -> dict:
 # return True if you want to trigger a regeneration if you changed anything
 def hook_interpret_slot_data(world, player: int, slot_data: dict[str, any]) -> bool:
     return False
+
+def after_load_option_file(option_table: dict) -> dict:
+    # option_table["core"] is the dictionary of modification of existing options
+    # option_table["user"] is the dictionary of custom options
+    return option_table
