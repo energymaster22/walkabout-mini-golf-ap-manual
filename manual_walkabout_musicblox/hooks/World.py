@@ -48,7 +48,7 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     locationNamesToRemove = [] # List of location names
 
     for location in location_table:
-         if not check_course_active(location, get_option_value(multiworld, player, "courses")):
+        if not check_course_active(location, get_option_value(multiworld, player, "Courses")):
             locationNamesToRemove.append(location.get('name'))
              
 
@@ -84,7 +84,9 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
 
     for item in item_table:
          itemCount = 1
-         if not check_course_active(item, get_option_value(multiworld, player, "courses")):
+         print(item)
+         print(get_option_value(multiworld, player, "Courses"))
+         if not check_course_active(item, get_option_value(multiworld, player, "Courses")):
             if item.get('count'):
                 print(item.get('name'))
                 print(item.get('count'))

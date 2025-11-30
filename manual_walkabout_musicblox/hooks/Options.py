@@ -46,17 +46,11 @@ class Courses(OptionSet):
 
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
-def before_options_defined(options: dict) -> dict:
+def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
+    options["LinearLogic"] = LinearLogic
+    options["Courses"] = Courses
     return options
 
-# This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options
-def after_options_defined(options: dict) -> dict:
-    options.update({
-        'linear_logic': LinearLogic,
-        'courses': Courses
-    })
-    return options
-    
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options
 def after_options_defined(options: Type[PerGameCommonOptions]):
     # To access a modifiable version of options check the dict in options.type_hints
@@ -66,7 +60,6 @@ def after_options_defined(options: Type[PerGameCommonOptions]):
     #  Here's an example on how to add your aliases to the generated goal
     # options.type_hints['goal'].aliases.update({"example": 0, "second_alias": 1})
     # options.type_hints['goal'].options.update({"example": 0, "second_alias": 1})  #for an alias to be valid it must also be in options
-
     pass
 
 # Use this Hook if you want to add your Option to an Option group (existing or not)

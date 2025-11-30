@@ -138,7 +138,7 @@ def canReachLocation(world: World, multiworld: MultiWorld, state: CollectionStat
 
 def requireSelectedCourses(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
     victoryCourseList = ""
-    for abbreviation in get_option_value(multiworld, player, 'courses'):
+    for abbreviation in get_option_value(multiworld, player, 'Courses'):
         victoryCourseList = victoryCourseList + f"|{abbreviation}E Scorecard| AND |{abbreviation}H Scorecard| AND "
     
     return f"{(victoryCourseList[:-5] if len(victoryCourseList) > 4 else "")}"

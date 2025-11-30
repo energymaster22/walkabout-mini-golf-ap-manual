@@ -93,7 +93,7 @@ def after_load_item_file(item_table: list) -> list:
                 "count": 1,
                 "name": f"{abbreviation}E Scorecard",
                 "category": [
-                f"{abbreviation}"
+                f"{abbreviation}",
                 "Scorecards"
                 ],
                 "progression": True
@@ -158,7 +158,7 @@ def after_load_location_file(location_table: list) -> list:
                     "name": f"{abbreviation}E Hole {i + 1}",
                     "region": f"{name}",
                     "category": [f"{abbreviation}", f"{name} Holes"],
-                    "requires": f"|{name} Course| AND (({{YamlDisabled(linear_logic)}} AND |{abbreviation}E Progressive Stroke Limit:{course[i + 2]}|) OR ({{YamlEnabled(linear_logic)}} AND |{abbreviation}E Progressive Stroke Limit:{strokeMinMax}|))"
+                    "requires": f"|{name} Course| AND (({{YamlEnabled(linear_logic)}} AND |{abbreviation}E Progressive Stroke Limit:{course[i + 2]}|) OR ({{YamlDisabled(linear_logic)}} AND |{abbreviation}E Progressive Stroke Limit:{strokeMinMax}|))"
                 }
             )
             pendingHardJson.append(
@@ -166,7 +166,7 @@ def after_load_location_file(location_table: list) -> list:
                     "name": f"{abbreviation}H Hole {i + 1}",
                     "region": f"{name} Hard",
                     "category": [f"{abbreviation}", f"{name} Hard Holes"],
-                    "requires": f"|{name} Course| AND (({{YamlDisabled(linear_logic)}} AND |{abbreviation}H Progressive Stroke Limit:{course[i + 2]}|) OR ({{YamlEnabled(linear_logic)}} AND |{abbreviation}H Progressive Stroke Limit:{strokeMinMaxHard}|))"
+                    "requires": f"|{name} Course| AND (({{YamlEnabled(linear_logic)}} AND |{abbreviation}H Progressive Stroke Limit:{course[i + 2]}|) OR ({{YamlDisabled(linear_logic)}} AND |{abbreviation}H Progressive Stroke Limit:{strokeMinMaxHard}|))"
                 }
             )
             pendingBallJson.append(
@@ -212,7 +212,7 @@ def after_load_location_file(location_table: list) -> list:
         pendingJson = []
 
         for i in range (branchCount): #Splice foxhunt clue branch into its components, then add foxhunt checks
-            branch = re.split('(\d+)', course[i + 39])
+            branch = re.split(r'(\d+)', course[i + 39])
             for j in range (int(branch[1])):
                 pendingJson.append(
                     {
