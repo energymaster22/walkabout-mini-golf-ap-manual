@@ -1,3 +1,6 @@
+# ![AP Logo](/APGolfLogo256.png)
+
+
 # Walkabout Mini Golf AP Manual
 Manual Archipelago randomizer implementation for Walkabout Mini Golf
 
