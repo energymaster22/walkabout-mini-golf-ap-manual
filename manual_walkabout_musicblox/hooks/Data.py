@@ -10,111 +10,115 @@ def after_load_game_file(game_table: dict) -> dict:
 def after_load_item_file(item_table: list) -> list:
     courses = get_courses()
     for course in courses:
-        #Check if the course is enabled via the yaml, otherwise don't put it in the world.
-        if(check_course_active()):
-            name = course[1].strip()
-            abbreviation = course[0].strip()
-            pendingJson = []
-            pendingHardJson = []
-            pendingLimitJson = []
-            pendingLimitHardJson = []
-            pendingClubJson = []
-            pendingBallJson = []
-            pendingScoreJson = []
-            pendingHardScoreJson = []
+        name = course[1].strip()
+        abbreviation = course[0].strip()
+        pendingJson = []
+        pendingHardJson = []
+        pendingLimitJson = []
+        pendingLimitHardJson = []
+        pendingClubJson = []
+        pendingBallJson = []
+        pendingScoreJson = []
+        pendingHardScoreJson = []
 
-            pendingJson.append(
+        pendingJson.append(
+            {
+                "count": 1,
+                "name": f"{name} Course",
+                "category": [
+                f"{abbreviation}",
+                f"{name}",
+                "Courses"
+                ],
+                "progression": True
+            }
+        )
+        pendingBallJson.append(
                 {
-                    "count": 1,
-                    "name": f"{name} Course",
-                    "category": [
-                    f"{name}",
-                    "Courses"
-                    ],
-                    "progression": True
-                }
-            )
-            pendingBallJson.append(
-                 {
-                    "count": "18",
-                    "name": f"{abbreviation}E Lost Ball",
-                    "category": [
-                    "Lost Balls"
-                    ],
-                    "progression": True
-                },
-            )
-            pendingLimitJson.append(
+                "count": "18",
+                "name": f"{abbreviation}E Lost Ball",
+                "category": [
+                f"{abbreviation}",
+                "Lost Balls"
+                ],
+                "progression": True
+            },
+        )
+        pendingLimitJson.append(
+            {
+                "count": "15",
+                "name": f"{abbreviation}E Progressive Stroke Limit",
+                "category": [
+                f"{abbreviation}",
+                f"{name}"
+                ],
+                "progression": True
+            }
+        )
+        pendingHardJson.append(
                 {
-                    "count": "15",
-                    "name": f"{abbreviation}E Progressive Stroke Limit",
-                    "category": [
-                    f"{name}"
-                    ],
-                    "progression": True
-                }
-            )
-            pendingHardJson.append(
-                 {
-                    "count": 1,
-                    "name": f"{name} Hard Course",
-                    "category": [
-                    f"{name}",
-                    "Courses"
-                    ],
-                    "progression": True
-                }
-            )
-            pendingLimitHardJson.append(
-                {
-                    "count": "15",
-                    "name": f"{abbreviation}H Progressive Stroke Limit",
-                    "category": [
-                    f"{name}"
-                    ],
-                    "progression": True
-                }
-            )
-            pendingClubJson.append(
-                {
-                    "count": 1,
-                    "name": f"{abbreviation}H Club",
-                    "category": [],
-                    "filler": True
-                },
-            )
-            pendingScoreJson.append(
-                {
-                    "count": 1,
-                    "name": f"{abbreviation}E Scorecard",
-                    "category": [
-                    "Scorecards"
-                    ],
-                    "progression": True
-                }
-            )
-            pendingHardScoreJson.append(
-                {
-                    "count": 1,
-                    "name": f"{abbreviation}H Scorecard",
-                    "category": [
-                    "Scorecards"
-                    ],
-                    "progression": True
-                }
-            )
-            
-            item_table.extend(pendingJson)
-            item_table.extend(pendingHardJson)
-            item_table.extend(pendingLimitJson)
-            item_table.extend(pendingLimitHardJson)
-            item_table.extend(pendingClubJson)
-            item_table.extend(pendingBallJson)
-            item_table.extend(pendingScoreJson)
-            item_table.extend(pendingHardScoreJson)
-
-        else:
-            pass
+                "count": 1,
+                "name": f"{name} Hard Course",
+                "category": [
+                f"{abbreviation}",
+                f"{name}",
+                "Courses"
+                ],
+                "progression": True
+            }
+        )
+        pendingLimitHardJson.append(
+            {
+                "count": "15",
+                "name": f"{abbreviation}H Progressive Stroke Limit",
+                "category": [
+                f"{abbreviation}",
+                f"{name}"
+                ],
+                "progression": True
+            }
+        )
+        pendingClubJson.append(
+            {
+                "count": 1,
+                "name": f"{abbreviation}H Club",
+                "category": [
+                f"{abbreviation}"
+                ],
+                "filler": True
+            },
+        )
+        pendingScoreJson.append(
+            {
+                "count": 1,
+                "name": f"{abbreviation}E Scorecard",
+                "category": [
+                f"{abbreviation}",
+                "Scorecards"
+                ],
+                "progression": True
+            }
+        )
+        pendingHardScoreJson.append(
+            {
+                "count": 1,
+                "name": f"{abbreviation}H Scorecard",
+                "category": [
+                f"{abbreviation}",
+                "Scorecards"
+                ],
+                "progression": True
+            }
+        )
+        
+        item_table.extend(pendingJson)
+        item_table.extend(pendingHardJson)
+        item_table.extend(pendingLimitJson)
+        item_table.extend(pendingLimitHardJson)
+        item_table.extend(pendingClubJson)
+        item_table.extend(pendingBallJson)
+        item_table.extend(pendingScoreJson)
+        item_table.extend(pendingHardScoreJson)
     return item_table
 
 # NOTE: Progressive items are not currently supported in Manual. Once they are,
@@ -129,99 +133,97 @@ def after_load_location_file(location_table: list) -> list:
     victoryCourseList = ""
     pendingVictoryJson = []
     for course in courses:
-        #Check if the course is enabled via the yaml, otherwise don't put it in the world.
-        if(check_course_active()):
-            name = course[1].strip()
-            abbreviation = course[0].strip()
-            branchCount = int(course[38])
-            pendingJson = []
-            pendingHardJson = []
-            pendingCompleteJson = []
-            pendingHardCompleteJson = []
-            pendingBallJson = []
+        name = course[1].strip()
+        abbreviation = course[0].strip()
+        branchCount = int(course[38])
+        pendingJson = []
+        pendingHardJson = []
+        pendingCompleteJson = []
+        pendingHardCompleteJson = []
+        pendingBallJson = []
 
-            strokeMinMax = 0
-            strokeMinMaxHard = 0
+        strokeMinMax = 0
+        strokeMinMaxHard = 0
 
-            victoryCourseList = victoryCourseList + f"|{abbreviation}E Scorecard| AND |{abbreviation}H Scorecard| AND "
-            
-            for i in range(18):
-                if (int(strokeMinMax) < int(course[i + 2])):
-                    strokeMinMax = course[i + 2]
-                if (int(strokeMinMaxHard) < int(course[i + 20])):
-                    strokeMinMaxHard = course[i + 20]
-                #Add hole and lost ball checks
+        victoryCourseList = victoryCourseList + f"|{abbreviation}E Scorecard| AND |{abbreviation}H Scorecard| AND "
+        
+        for i in range(18):
+            if (int(strokeMinMax) < int(course[i + 2])):
+                strokeMinMax = course[i + 2]
+            if (int(strokeMinMaxHard) < int(course[i + 20])):
+                strokeMinMaxHard = course[i + 20]
+            #Add hole and lost ball checks
+            pendingJson.append(
+                {
+                    "name": f"{abbreviation}E Hole {i + 1}",
+                    "region": f"{name}",
+                    "category": [f"{abbreviation}", f"{name} Holes"],
+                    "requires": f"|{name} Course| AND (({{YamlEnabled(linear_logic)}} AND |{abbreviation}E Progressive Stroke Limit:{course[i + 2]}|) OR ({{YamlDisabled(linear_logic)}} AND |{abbreviation}E Progressive Stroke Limit:{strokeMinMax}|))"
+                }
+            )
+            pendingHardJson.append(
+                {
+                    "name": f"{abbreviation}H Hole {i + 1}",
+                    "region": f"{name} Hard",
+                    "category": [f"{abbreviation}", f"{name} Hard Holes"],
+                    "requires": f"|{name} Course| AND (({{YamlEnabled(linear_logic)}} AND |{abbreviation}H Progressive Stroke Limit:{course[i + 2]}|) OR ({{YamlDisabled(linear_logic)}} AND |{abbreviation}H Progressive Stroke Limit:{strokeMinMaxHard}|))"
+                }
+            )
+            pendingBallJson.append(
+                {
+                    "name": f"{abbreviation}E Ball {i + 1}",
+                    "region": f"{name}",
+                    "category": [f"{abbreviation}", f"{name} Lost Balls"],
+                    "requires": f"|{name} Course|"
+                }
+            )
+        pendingCompleteJson.append(
+            {
+                "name": f"{abbreviation}E Complete",
+                "category": [
+                f"{abbreviation}",
+                "Course Completion"
+                ],
+                "requires": [f"{abbreviation}E Progressive Stroke Limit:5"],
+                "place_item": [
+                f"{abbreviation}E Scorecard"
+                ]
+            },
+        )
+        pendingHardCompleteJson.append(
+            {
+                "name": f"{abbreviation}H Complete",
+                "category": [
+                f"{abbreviation}",
+                "Course Completion"
+                ],
+                "requires": [f"{abbreviation}H Progressive Stroke Limit:5"],
+                "place_item": [
+                f"{abbreviation}H Scorecard"
+                ]
+            },
+        )
+        location_table.extend(pendingJson)
+        location_table.extend(pendingHardJson)
+        location_table.extend(pendingBallJson)
+        location_table.extend(pendingCompleteJson)
+        location_table.extend(pendingHardCompleteJson)
+
+        pendingJson = []
+
+        for i in range (branchCount): #Splice foxhunt clue branch into its components, then add foxhunt checks
+            branch = re.split(r'(\d+)', course[i + 39])
+            for j in range (int(branch[1])):
                 pendingJson.append(
                     {
-                        "name": f"{abbreviation}E Hole {i + 1}",
-                        "region": f"{name}",
-                        "category": [f"{name} Holes"],
-                        "requires": f"|{name} Course| AND (({{YamlDisabled(linear_logic)}} AND |{abbreviation}E Progressive Stroke Limit:{course[i + 2]}|) OR ({{YamlEnabled(linear_logic)}} AND |{abbreviation}E Progressive Stroke Limit:{strokeMinMax}|))"
-                    }
-                )
-                pendingHardJson.append(
-                    {
-                        "name": f"{abbreviation}H Hole {i + 1}",
+                        "name": f"{(abbreviation + "H Clue " + str(j + 1)) if branch[0] == "SF" else branch[0] if int(branch[1]) == 1 else (branch[0] + " Clue " + str(j + 1))}",
                         "region": f"{name} Hard",
-                        "category": [f"{name} Hard Holes"],
-                        "requires": f"|{name} Course| AND (({{YamlDisabled(linear_logic)}} AND |{abbreviation}H Progressive Stroke Limit:{course[i + 2]}|) OR ({{YamlEnabled(linear_logic)}} AND |{abbreviation}H Progressive Stroke Limit:{strokeMinMaxHard}|))"
+                        "category": [f"{abbreviation}", f"{name} Hard Foxhunt Clues"],
+                        "requires": f"|{name} Course| AND |{abbreviation}E Lost Ball:10|"
                     }
                 )
-                pendingBallJson.append(
-                    {
-                        "name": f"{abbreviation}E Ball {i + 1}",
-                        "region": f"{name}",
-                        "category": [f"{name} Lost Balls"],
-                        "requires": f"|{name} Course|"
-                    }
-                )
-            pendingCompleteJson.append(
-                {
-                    "name": f"{abbreviation}E Complete",
-                    "category": [
-                    "Course Completion"
-                    ],
-                    "requires": [f"{abbreviation}E Progressive Stroke Limit:5"],
-                    "place_item": [
-                    f"{abbreviation}E Scorecard"
-                    ]
-                },
-            )
-            pendingHardCompleteJson.append(
-                {
-                    "name": f"{abbreviation}H Complete",
-                    "category": [
-                    "Course Completion"
-                    ],
-                    "requires": [f"{abbreviation}H Progressive Stroke Limit:5"],
-                    "place_item": [
-                    f"{abbreviation}H Scorecard"
-                    ]
-                },
-            )
-            location_table.extend(pendingJson)
-            location_table.extend(pendingHardJson)
-            location_table.extend(pendingBallJson)
-            location_table.extend(pendingCompleteJson)
-            location_table.extend(pendingHardCompleteJson)
-
-            pendingJson = []
-
-            for i in range (branchCount): #Splice foxhunt clue branch into its components, then add foxhunt checks
-                branch = re.split('(\d+)', course[i + 39])
-                for j in range (int(branch[1])):
-                    pendingJson.append(
-                        {
-                            "name": f"{(abbreviation + "H Clue " + str(j + 1)) if branch[0] == "SF" else branch[0] if int(branch[1]) == 1 else (branch[0] + " Clue " + str(j + 1))}",
-                            "region": f"{name} Hard",
-                            "category": [f"{name} Hard Foxhunt Clues"],
-                            "requires": f"|{name} Course| AND |{abbreviation}E Lost Ball:10|"
-                        }
-                    )
-                
-            location_table.extend(pendingJson)
-        else:
-            pass
+            
+        location_table.extend(pendingJson)
 
     pendingVictoryJson.append( 
         {
@@ -230,7 +232,7 @@ def after_load_location_file(location_table: list) -> list:
             "category": [
             "Goal"
             ],
-            "requires": f"{(victoryCourseList[:-5] if len(victoryCourseList) > 4 else "")}"
+            "requires": "{requireSelectedCourses()}"
         }
     )
 
@@ -285,3 +287,8 @@ def after_load_meta_file(meta_table: dict) -> dict:
 # return True if you want to trigger a regeneration if you changed anything
 def hook_interpret_slot_data(world, player: int, slot_data: dict[str, any]) -> bool:
     return False
+
+def after_load_option_file(option_table: dict) -> dict:
+    # option_table["core"] is the dictionary of modification of existing options
+    # option_table["user"] is the dictionary of custom options
+    return option_table
