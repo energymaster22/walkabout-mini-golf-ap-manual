@@ -35,7 +35,7 @@ class Courses(OptionSet):
     """
     List which courses you own/want to play.
     
-    Enter the course acronym for each coarse. (ex:TT=Tourist Trap)
+    Enter the course acronym for each course. (ex:TT=Tourist Trap)
     """
     display_name = "Courses"
     default = ["TT", "CB"]
