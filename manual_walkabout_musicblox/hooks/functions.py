@@ -2,14 +2,16 @@ import os
 from io import TextIOWrapper
 import zipfile
 import csv
+from sys import platform
 
 def get_courses():
 
     courses = []
-    print("Directory")
-    print(os.path.abspath(os.getcwd()))
 
-    with zipfile.ZipFile('custom_worlds\\manual_walkabout_musicblox.apworld') as apworld:
+    userplatform = 'custom_worlds\\manual_walkabout_musicblox.apworld' if platform == "win32" else 'Archipelago/worlds/manual_walkabout_musicblox.apworld'
+
+
+    with zipfile.ZipFile(userplatform) as apworld:
         with apworld.open('manual_walkabout_musicblox/data/meta/courses.csv', 'r') as courseFile:
             reader = csv.reader(TextIOWrapper(courseFile, 'utf-8'))
 
@@ -17,6 +19,7 @@ def get_courses():
                 courses.append(course)
 
     return courses
+
 
 def check_course_active(subj, coursesActive): #Check if the course is selected within the yaml options. Always returns true as a placeholder.
     
