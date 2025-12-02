@@ -144,21 +144,22 @@ def after_load_location_file(location_table: list) -> list:
 
         strokeMinMax = 0
         strokeMinMaxHard = 0
+        adjustableParLogic = 1
 
         victoryCourseList = victoryCourseList + f"|{abbreviation}E Scorecard| AND |{abbreviation}H Scorecard| AND "
         
         for i in range(18):
             if (int(strokeMinMax) < int(course[i + 2])):
-                strokeMinMax = course[i + 2]
+                strokeMinMax = str(int(course[i + 2]) - adjustableParLogic)
             if (int(strokeMinMaxHard) < int(course[i + 20])):
-                strokeMinMaxHard = course[i + 20]
+                strokeMinMaxHard = str(int(course[i + 20]) - adjustableParLogic)
             #Add hole and lost ball checks
             pendingJson.append(
                 {
                     "name": f"{abbreviation}E Hole {i + 1}",
                     "region": f"{name}",
                     "category": [f"{abbreviation}", f"{name} Holes"],
-                    "requires": f"|{name} Course| AND (({{YamlEnabled(linear_logic)}} AND |{abbreviation}E Progressive Stroke Limit:{course[i + 2]}|) OR ({{YamlDisabled(linear_logic)}} AND |{abbreviation}E Progressive Stroke Limit:{strokeMinMax}|))"
+                    "requires": f"|{name} Course| AND (({{YamlDisabled(LinearLogic)}} AND |{abbreviation}E Progressive Stroke Limit:{str(int(course[i + 2]) - adjustableParLogic)}|) OR ({{YamlEnabled(LinearLogic)}} AND |{abbreviation}E Progressive Stroke Limit:{strokeMinMax}|))"
                 }
             )
             pendingHardJson.append(
@@ -166,7 +167,7 @@ def after_load_location_file(location_table: list) -> list:
                     "name": f"{abbreviation}H Hole {i + 1}",
                     "region": f"{name} Hard",
                     "category": [f"{abbreviation}", f"{name} Hard Holes"],
-                    "requires": f"|{name} Course| AND (({{YamlEnabled(linear_logic)}} AND |{abbreviation}H Progressive Stroke Limit:{course[i + 2]}|) OR ({{YamlDisabled(linear_logic)}} AND |{abbreviation}H Progressive Stroke Limit:{strokeMinMaxHard}|))"
+                    "requires": f"|{name} Course| AND (({{YamlDisabled(LinearLogic)}} AND |{abbreviation}H Progressive Stroke Limit:{str(int(course[i + 2]) - adjustableParLogic)}|) OR ({{YamlEnabled(LinearLogic)}} AND |{abbreviation}H Progressive Stroke Limit:{strokeMinMaxHard}|))"
                 }
             )
             pendingBallJson.append(
