@@ -84,17 +84,13 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
 
     for item in item_table:
          itemCount = 1
-         #print(item)
-         #print(get_option_value(multiworld, player, "Courses"))
          if not check_course_active(item, get_option_value(multiworld, player, "Courses")):
             if item.get('count'):
-                #print(item.get('name'))
-                #print(item.get('count'))
                 try:
                     itemCount = int(item.get('count'))
                 except:
-                    #print('not a string that works')
-                    #print(item.get('count'))
+                    print('not a string that works')
+                    print(item.get('count'))
             for i in range(int(item.get('count'))):
                 itemNamesToRemove.append(item.get('name'))
 
