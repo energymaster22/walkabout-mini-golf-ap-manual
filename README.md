@@ -20,6 +20,7 @@ Create a new profile from the profiles screen to the right of the course select 
 ## Items:
 + Course unlocks: Lets you enter the easy variant of the course
 + Progressive stroke limit: By default you are only allowed one stroke per hole! Collecting Progressive stroke limits allows you to take one more shot on each hole per item (Progressive stroke limit is strictly for the course and difficulty that it says in the item name)
+  + Example: If you have 2 "TTE Progressive Stroke Limit", you can take up to 3 putts per hole in Tourist Trap Easy. (If you can get in under your stroke limit, you can claim the location out of logic!)
 + Lost Balls: Requires 10 of a holes lost balls to enter the hard variant of the course
 + Slingshot: Allows you to use the slingshot to hit targets
 + Putters: Currently not useful
