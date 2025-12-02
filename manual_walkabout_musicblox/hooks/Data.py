@@ -275,6 +275,24 @@ def after_load_region_file(region_table: dict) -> dict:
 
 # called after the categories.json file has been loaded
 def after_load_category_file(category_table: dict) -> dict:
+    courses = get_courses()
+
+    #Force every abbreviation category to be hidden in the Manual Client
+    for course in courses:
+        abbreviation = course[0].strip()
+
+        category_table[f"{abbreviation}"] = {
+            "hidden": True
+        }
+
+    #Make every course name category so it can be hidden later
+    #As of December 1st, 2025 apparently there is no way to dynamically hide catagories based on YAML settings so this code is currently uselss... pain -Energy22
+    #for course in courses:
+    #    name = course[1].strip()
+
+    #    category_table[f"{name}"] = {
+    #        "hidden": False
+    #    }
     return category_table
 
 # called after the meta.json file has been loaded and just before the properties of the apworld are defined. You can use this hook to change what is displayed on the webhost
