@@ -84,17 +84,17 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
 
     for item in item_table:
          itemCount = 1
-         print(item)
-         print(get_option_value(multiworld, player, "Courses"))
+         #print(item)
+         #print(get_option_value(multiworld, player, "Courses"))
          if not check_course_active(item, get_option_value(multiworld, player, "Courses")):
             if item.get('count'):
-                print(item.get('name'))
-                print(item.get('count'))
+                #print(item.get('name'))
+                #print(item.get('count'))
                 try:
                     itemCount = int(item.get('count'))
                 except:
-                    print('not a string that works')
-                    print(item.get('count'))
+                    #print('not a string that works')
+                    #print(item.get('count'))
             for i in range(int(item.get('count'))):
                 itemNamesToRemove.append(item.get('name'))
 
@@ -103,13 +103,13 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     # Because multiple copies of an item can exist, you need to add an item name
     # to the list multiple times if you want to remove multiple copies of it.
 
-    print('items pending removal')
-    print(itemNamesToRemove)
+    #print('items pending removal')
+    #print(itemNamesToRemove)
 
     for itemName in itemNamesToRemove:
         item = next(i for i in item_pool if i.name == itemName)
-        print('Removing Item:')
-        print(item)
+        #print('Removing Item:')
+        #print(item)
         item_pool.remove(item)
 
     return item_pool
