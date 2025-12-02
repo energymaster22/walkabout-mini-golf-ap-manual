@@ -1,0 +1,8 @@
+{
+    "tracker_items": {
+        "type": "array",
+        "orientation": "vertical",
+        "style": "wrap",
+        "content": []
+    }
+}

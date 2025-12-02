@@ -1,0 +1,13 @@
+ITEM_GROUPS = {
+
+}
+
+
+ITEM_VALUES = {
+
+}
+
+
+STAGE_MAPPINGS = {
+
+}

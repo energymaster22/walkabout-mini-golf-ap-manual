@@ -1,0 +1,16 @@
+{
+    "tracker_map": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "main_map",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "main_map"
+                    ]
+                }
+            }
+        ]
+    }
+}

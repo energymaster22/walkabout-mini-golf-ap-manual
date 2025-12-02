@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Slingshot",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/placeholder.png",
+        "codes": "slingshot"
+    },
+    {
+        "name": "Tourist Trap Course Unlock",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/placeholder.png",
+        "codes": "TTCourse"
+    },
+    {
+        "name": "Tourist Trap Lost Balls",
+        "type": "consumable",
+        "img": "images/items/balls/00Shack/0005.png",
+        "codes": "TTLost"
+    },
+    {
+        "name": "Cherry Blossom Course Unlock",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/placeholder.png",
+        "codes": "CBCourse"
+    }
+]

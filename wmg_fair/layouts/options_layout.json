@@ -1,0 +1,26 @@
+{
+    "settings_popup": {
+        "type": "array",
+        "orientation": "horizontal",
+        "v_alignment": "top",
+        "min_width": 190,
+        "min_height": 40,
+        "content": {
+            "type": "itemgrid",
+            "item_width": 40,
+            "item_height": 40,
+            "v_alignment": "center",
+            "h_alignment": "center",
+            "dropshadow": false,
+            "margin": 10,
+            "rows": [
+                [
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            ]
+        }
+    }
+}

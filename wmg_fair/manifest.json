@@ -1,0 +1,16 @@
+{
+    "name": "Walkabout Minigolf (Manual)",
+    "game_name": "Manual_Walkabout_MusicBlox",
+    "package_version": "0.0.1",
+    "package_uid": "wmg_fair",
+    "author": "Fairweather",
+    "variants": {
+        "tracker": {
+            "display_name": "Map Tracker",
+            "flags": [
+                "ap",
+                "apmanual"
+            ]
+        }
+    }
+}

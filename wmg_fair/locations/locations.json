@@ -1,0 +1,297 @@
+[
+    {
+        "name": "World",
+        "children": [
+            {
+                "name": "The Shack",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Practice Hole 1",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Practice Hole 2",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Practice Hole 3",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Practice Hole 4",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Practice Hole 5",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Practice Hole 6",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Practice Hole 7",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Practice Hole 8",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Practice Hole 9",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Practice Hole 10",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Practice Hole 11",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Practice Hole 12",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Practice Hole 13",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Practice Hole 14",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Practice Hole 15",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Practice Hole 16",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Practice Hole 17",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Practice Hole 18",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Practice Hole 19",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Practice Hole 20",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Practice Hole 21",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Practice Hole 22",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Practice Hole 23",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Practice Hole 24",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Practice Hole 25",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Practice Hole 26",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Practice Hole 27",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Practice Hole 28",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Practice Hole 29",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Practice Hole 30",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Practice Hole 31",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Putter Target 1",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Putter Target 2",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Putter Target 3",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Putter Target 4",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Putter Target 5",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Putter Target 6",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Putter Target 7",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Putter Target 8",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Putter Target 9",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Putter Target 10",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Putter Target 11",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Putter Target 12",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Slingshot Target 1",
+                        "item_count": 1,
+                        "access_rules": [
+                            "slingshot"
+                        ]
+                    },
+                    {
+                        "name": "Slingshot Target 2",
+                        "item_count": 1,
+                        "access_rules": [
+                            "slingshot"
+                        ]
+                    },
+                    {
+                        "name": "Slingshot Target 3",
+                        "item_count": 1,
+                        "access_rules": [
+                            "slingshot"
+                        ]
+                    },
+                    {
+                        "name": "Slingshot Target 4",
+                        "item_count": 1,
+                        "access_rules": [
+                            "slingshot"
+                        ]
+                    },
+                    {
+                        "name": "Slingshot Target 5",
+                        "item_count": 1,
+                        "access_rules": [
+                            "slingshot"
+                        ]
+                    },
+                    {
+                        "name": "Slingshot Target 6",
+                        "item_count": 1,
+                        "access_rules": [
+                            "slingshot"
+                        ]
+                    },
+                    {
+                        "name": "Slingshot Target 7",
+                        "item_count": 1,
+                        "access_rules": [
+                            "slingshot"
+                        ]
+                    },
+                    {
+                        "name": "Slingshot Target 8",
+                        "item_count": 1,
+                        "access_rules": [
+                            "slingshot"
+                        ]
+                    },
+                    {
+                        "name": "Slingshot Target 9",
+                        "item_count": 1,
+                        "access_rules": [
+                            "slingshot"
+                        ]
+                    },
+                    {
+                        "name": "Slingshot Target 10",
+                        "item_count": 1,
+                        "access_rules": [
+                            "slingshot"
+                        ]
+                    },
+                    {
+                        "name": "Slingshot Target 11",
+                        "item_count": 1,
+                        "access_rules": [
+                            "slingshot"
+                        ]
+                    },
+                    {
+                        "name": "Slingshot Target 12",
+                        "item_count": 1,
+                        "access_rules": [
+                            "slingshot"
+                        ]
+                    },
+                    {
+                        "name": "Slingshot Target 13",
+                        "item_count": 1,
+                        "access_rules": [
+                            "slingshot"
+                        ]
+                    },
+                    {
+                        "name": "Slingshot Target 14",
+                        "item_count": 1,
+                        "access_rules": [
+                            "slingshot"
+                        ]
+                    },
+                    {
+                        "name": "Slingshot Target 15",
+                        "item_count": 1,
+                        "access_rules": [
+                            "slingshot"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "main_map",
+                        "x": 25,
+                        "y": 0
+                    }
+                ]
+            }
+        ]
+    }
+]
