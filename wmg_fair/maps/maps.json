@@ -1,7 +1,7 @@
 [
     {
         "name": "main_map",
-        "img": "images/maps/main_map.png",
+        "img": "images/maps/placeholder.png",
         "location_size": 10,
         "location_border_thickness": 1
     }

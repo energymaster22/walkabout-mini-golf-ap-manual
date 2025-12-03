@@ -1,1 +1,9 @@
-[]
+[
+    {
+        "name": "Linear Logic",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/placeholder.png",
+        "codes": "op_nolin"
+    }
+]

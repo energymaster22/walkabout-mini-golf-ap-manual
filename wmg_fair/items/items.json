@@ -10,20 +10,32 @@
         "name": "Tourist Trap Course Unlock",
         "type": "toggle",
         "loop": "true",
-        "img": "images/items/placeholder.png",
+        "img": "images/items/logos/TT.png",
         "codes": "TTCourse"
     },
     {
         "name": "Tourist Trap Lost Balls",
         "type": "consumable",
-        "img": "images/items/balls/00Shack/0005.png",
+        "img": "images/items/balls/00Welcome/0005.png",
         "codes": "TTLost"
+    },
+    {
+        "name": "Tourist Trap Easy Par",
+        "type": "consumable",
+        "img": "images/items/balls/00Welcome/0005.png",
+        "codes": "TTEPar"
+    },
+    {
+        "name": "Tourist Trap Hard Par",
+        "type": "consumable",
+        "img": "images/items/balls/00Welcome/0005.png",
+        "codes": "TTHPar"
     },
     {
         "name": "Cherry Blossom Course Unlock",
         "type": "toggle",
         "loop": "true",
-        "img": "images/items/placeholder.png",
+        "img": "images/items/logos/CB.png",
         "codes": "CBCourse"
     }
 ]

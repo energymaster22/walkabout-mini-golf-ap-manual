@@ -1,9 +1,11 @@
 [
     {
         "name": "World",
+		"chest_unopened_img": "images/items/balls/none.png",
+		"chest_opened_img": "images/items/flag.png",
         "children": [
             {
-                "name": "The Shack",
+                "name": "Welcome Island",
                 "access_rules": [],
                 "sections": [
                     {
@@ -132,162 +134,507 @@
                     },
                     {
                         "name": "Putter Target 1",
-                        "item_count": 1
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/target.png"
                     },
                     {
                         "name": "Putter Target 2",
-                        "item_count": 1
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/target.png"
                     },
                     {
                         "name": "Putter Target 3",
-                        "item_count": 1
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/target.png"
                     },
                     {
                         "name": "Putter Target 4",
-                        "item_count": 1
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/target.png"
                     },
                     {
                         "name": "Putter Target 5",
-                        "item_count": 1
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/target.png"
                     },
                     {
                         "name": "Putter Target 6",
-                        "item_count": 1
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/target.png"
                     },
                     {
                         "name": "Putter Target 7",
-                        "item_count": 1
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/target.png"
                     },
                     {
                         "name": "Putter Target 8",
-                        "item_count": 1
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/target.png"
                     },
                     {
                         "name": "Putter Target 9",
-                        "item_count": 1
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/target.png"
                     },
                     {
                         "name": "Putter Target 10",
-                        "item_count": 1
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/target.png"
                     },
                     {
                         "name": "Putter Target 11",
-                        "item_count": 1
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/target.png"
                     },
                     {
                         "name": "Putter Target 12",
-                        "item_count": 1
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/target.png"
                     },
                     {
                         "name": "Slingshot Target 1",
                         "item_count": 1,
-                        "access_rules": [
-                            "slingshot"
-                        ]
+                        "access_rules": ["slingshot"],
+		                "chest_opened_img": "images/items/target.png"
                     },
                     {
                         "name": "Slingshot Target 2",
                         "item_count": 1,
-                        "access_rules": [
-                            "slingshot"
-                        ]
+                        "access_rules": ["slingshot"],
+		                "chest_opened_img": "images/items/target.png"
                     },
                     {
                         "name": "Slingshot Target 3",
                         "item_count": 1,
-                        "access_rules": [
-                            "slingshot"
-                        ]
+                        "access_rules": ["slingshot"],
+		                "chest_opened_img": "images/items/target.png"
                     },
                     {
                         "name": "Slingshot Target 4",
                         "item_count": 1,
-                        "access_rules": [
-                            "slingshot"
-                        ]
+                        "access_rules": ["slingshot"],
+		                "chest_opened_img": "images/items/target.png"
                     },
                     {
                         "name": "Slingshot Target 5",
                         "item_count": 1,
-                        "access_rules": [
-                            "slingshot"
-                        ]
+                        "access_rules": ["slingshot"],
+		                "chest_opened_img": "images/items/target.png"
                     },
                     {
                         "name": "Slingshot Target 6",
                         "item_count": 1,
-                        "access_rules": [
-                            "slingshot"
-                        ]
+                        "access_rules": ["slingshot"],
+		                "chest_opened_img": "images/items/target.png"
                     },
                     {
                         "name": "Slingshot Target 7",
                         "item_count": 1,
-                        "access_rules": [
-                            "slingshot"
-                        ]
+                        "access_rules": ["slingshot"],
+		                "chest_opened_img": "images/items/target.png"
                     },
                     {
                         "name": "Slingshot Target 8",
                         "item_count": 1,
-                        "access_rules": [
-                            "slingshot"
-                        ]
+                        "access_rules": ["slingshot"],
+		                "chest_opened_img": "images/items/target.png"
                     },
                     {
                         "name": "Slingshot Target 9",
                         "item_count": 1,
-                        "access_rules": [
-                            "slingshot"
-                        ]
+                        "access_rules": ["slingshot"],
+		                "chest_opened_img": "images/items/target.png"
                     },
                     {
                         "name": "Slingshot Target 10",
                         "item_count": 1,
-                        "access_rules": [
-                            "slingshot"
-                        ]
+                        "access_rules": ["slingshot"],
+		                "chest_opened_img": "images/items/target.png"
                     },
                     {
                         "name": "Slingshot Target 11",
                         "item_count": 1,
-                        "access_rules": [
-                            "slingshot"
-                        ]
+                        "access_rules": ["slingshot"],
+		                "chest_opened_img": "images/items/target.png"
                     },
                     {
                         "name": "Slingshot Target 12",
                         "item_count": 1,
-                        "access_rules": [
-                            "slingshot"
-                        ]
+                        "access_rules": ["slingshot"],
+		                "chest_opened_img": "images/items/target.png"
                     },
                     {
                         "name": "Slingshot Target 13",
                         "item_count": 1,
-                        "access_rules": [
-                            "slingshot"
-                        ]
+                        "access_rules": ["slingshot"],
+		                "chest_opened_img": "images/items/target.png"
                     },
                     {
                         "name": "Slingshot Target 14",
                         "item_count": 1,
-                        "access_rules": [
-                            "slingshot"
-                        ]
+                        "access_rules": ["slingshot"],
+		                "chest_opened_img": "images/items/target.png"
                     },
                     {
                         "name": "Slingshot Target 15",
                         "item_count": 1,
-                        "access_rules": [
-                            "slingshot"
-                        ]
+                        "access_rules": ["slingshot"],
+		                "chest_opened_img": "images/items/target.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "main_map",
+                        "x": 5,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Tourist Trap Easy",
+                "access_rules": ["TTCourse"],
+                "sections": [
+                    {
+                        "name": "Hole 1",
+                        "item_count": 1,
+                        "access_rules": ["TTEPar:1"]
+                    },
+                    {
+                        "name": "Hole 2",
+                        "item_count": 1,
+                        "access_rules": ["TTEPar:1"]
+                    },
+                    {
+                        "name": "Hole 3",
+                        "item_count": 1,
+                        "access_rules": ["TTEPar:2"]
+                    },
+                    {
+                        "name": "Hole 4",
+                        "item_count": 1,
+                        "access_rules": ["TTEPar:2"]
+                    },
+                    {
+                        "name": "Hole 5",
+                        "item_count": 1,
+                        "access_rules": ["TTEPar:2"]
+                    },
+                    {
+                        "name": "Hole 6",
+                        "item_count": 1,
+                        "access_rules": ["TTEPar:2"]
+                    },
+                    {
+                        "name": "Hole 7",
+                        "item_count": 1,
+                        "access_rules": ["TTEPar:2"]
+                    },
+                    {
+                        "name": "Hole 8",
+                        "item_count": 1,
+                        "access_rules": ["TTEPar:3"]
+                    },
+                    {
+                        "name": "Hole 9",
+                        "item_count": 1,
+                        "access_rules": ["TTEPar:3","TTEPar:2,op_nolin"]
+                    },
+                    {
+                        "name": "Hole 10",
+                        "item_count": 1,
+                        "access_rules": ["TTEPar:3","TTEPar:2,op_nolin"]
+                    },
+                    {
+                        "name": "Hole 11",
+                        "item_count": 1,
+                        "access_rules": ["TTEPar:3","TTEPar:2,op_nolin"]
+                    },
+                    {
+                        "name": "Hole 12",
+                        "item_count": 1,
+                        "access_rules": ["TTEPar:3","TTEPar:2,op_nolin"]
+                    },
+                    {
+                        "name": "Hole 13",
+                        "item_count": 1,
+                        "access_rules": ["TTEPar:3","TTEPar:2,op_nolin"]
+                    },
+                    {
+                        "name": "Hole 14",
+                        "item_count": 1,
+                        "access_rules": ["TTEPar:3"]
+                    },
+                    {
+                        "name": "Hole 15",
+                        "item_count": 1,
+                        "access_rules": ["TTEPar:3","TTEPar:2,op_nolin"]
+                    },
+                    {
+                        "name": "Hole 16",
+                        "item_count": 1,
+                        "access_rules": ["TTEPar:3","TTEPar:2,op_nolin"]
+                    },
+                    {
+                        "name": "Hole 17",
+                        "item_count": 1,
+                        "access_rules": ["TTEPar:3","TTEPar:2,op_nolin"]
+                    },
+                    {
+                        "name": "Hole 18",
+                        "item_count": 1,
+                        "access_rules": ["TTEPar:5"]
+                    },
+                    {
+                        "name": "Lost Ball 1",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/01TT/0001.png"
+                    },
+                    {
+                        "name": "Lost Ball 2",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/01TT/0002.png"
+                    },
+                    {
+                        "name": "Lost Ball 3",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/01TT/0003.png"
+                    },
+                    {
+                        "name": "Lost Ball 4",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/01TT/0004.png"
+                    },
+                    {
+                        "name": "Lost Ball 5",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/01TT/0005.png"
+                    },
+                    {
+                        "name": "Lost Ball 6",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/01TT/0006.png"
+                    },
+                    {
+                        "name": "Lost Ball 7",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/01TT/0007.png"
+                    },
+                    {
+                        "name": "Lost Ball 8",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/01TT/0008.png"
+                    },
+                    {
+                        "name": "Lost Ball 9",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/01TT/0009.png"
+                    },
+                    {
+                        "name": "Lost Ball 10",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/01TT/0010.png"
+                    },
+                    {
+                        "name": "Lost Ball 11",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/01TT/0011.png"
+                    },
+                    {
+                        "name": "Lost Ball 12",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/01TT/0012.png"
+                    },
+                    {
+                        "name": "Lost Ball 13",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/01TT/0013.png"
+                    },
+                    {
+                        "name": "Lost Ball 14",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/01TT/0014.png"
+                    },
+                    {
+                        "name": "Lost Ball 15",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/01TT/0015.png"
+                    },
+                    {
+                        "name": "Lost Ball 16",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/01TT/0016.png"
+                    },
+                    {
+                        "name": "Lost Ball 17",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/01TT/0017.png"
+                    },
+                    {
+                        "name": "Lost Ball 18",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/01TT/0018.png"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "main_map",
                         "x": 25,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Tourist Trap Hard",
+                "access_rules": ["TTCourse,TTLost:10"],
+                "sections": [
+                    {
+                        "name": "Hole 1",
+                        "item_count": 1,
+                        "access_rules": ["TTHPar:1"]
+                    },
+                    {
+                        "name": "Hole 2",
+                        "item_count": 1,
+                        "access_rules": ["TTHPar:2"]
+                    },
+                    {
+                        "name": "Hole 3",
+                        "item_count": 1,
+                        "access_rules": ["TTHPar:2"]
+                    },
+                    {
+                        "name": "Hole 4",
+                        "item_count": 1,
+                        "access_rules": ["TTHPar:2"]
+                    },
+                    {
+                        "name": "Hole 5",
+                        "item_count": 1,
+                        "access_rules": ["TTHPar:2"]
+                    },
+                    {
+                        "name": "Hole 6",
+                        "item_count": 1,
+                        "access_rules": ["TTHPar:3"]
+                    },
+                    {
+                        "name": "Hole 7",
+                        "item_count": 1,
+                        "access_rules": ["TTHPar:3","TTHPar:2,op_nolin"]
+                    },
+                    {
+                        "name": "Hole 8",
+                        "item_count": 1,
+                        "access_rules": ["TTHPar:3","TTHPar:2,op_nolin"]
+                    },
+                    {
+                        "name": "Hole 9",
+                        "item_count": 1,
+                        "access_rules": ["TTHPar:3"]
+                    },
+                    {
+                        "name": "Hole 10",
+                        "item_count": 1,
+                        "access_rules": ["TTHPar:3","TTHPar:2,op_nolin"]
+                    },
+                    {
+                        "name": "Hole 11",
+                        "item_count": 1,
+                        "access_rules": ["TTHPar:3","TTHPar:2,op_nolin"]
+                    },
+                    {
+                        "name": "Hole 12",
+                        "item_count": 1,
+                        "access_rules": ["TTHPar:3","TTHPar:2,op_nolin"]
+                    },
+                    {
+                        "name": "Hole 13",
+                        "item_count": 1,
+                        "access_rules": ["TTHPar:3"]
+                    },
+                    {
+                        "name": "Hole 14",
+                        "item_count": 1,
+                        "access_rules": ["TTHPar:3"]
+                    },
+                    {
+                        "name": "Hole 15",
+                        "item_count": 1,
+                        "access_rules": ["TTHPar:3"]
+                    },
+                    {
+                        "name": "Hole 16",
+                        "item_count": 1,
+                        "access_rules": ["TTHPar:3","TTHPar:2,op_nolin"]
+                    },
+                    {
+                        "name": "Hole 17",
+                        "item_count": 1,
+                        "access_rules": ["TTHPar:3","TTHPar:2,op_nolin"]
+                    },
+                    {
+                        "name": "Hole 18",
+                        "item_count": 1,
+                        "access_rules": ["TTHPar:5"]
+                    },
+                    {
+                        "name": "Foxhunt Clue Item 1",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Foxhunt Clue Item 2",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Foxhunt Clue Item 3",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Foxhunt Clue Item 4",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Foxhunt Clue Item 5",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Foxhunt Clue Item 6",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Foxhunt Clue Item 7",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Foxhunt Clue Item 8",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Foxhunt Clue Item 9",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Foxhunt Clue Item 10",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Foxhunt Clue Item 11",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Foxhunt Clue Item 12",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Foxhunt Clue Item 13",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "main_map",
+                        "x": 45,
                         "y": 0
                     }
                 ]

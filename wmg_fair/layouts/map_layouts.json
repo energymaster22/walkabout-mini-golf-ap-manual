@@ -3,7 +3,7 @@
         "type": "tabbed",
         "tabs": [
             {
-                "title": "main_map",
+                "title": "Overview",
                 "content": {
                     "type": "map",
                     "maps": [
