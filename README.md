@@ -15,7 +15,7 @@ Create a new profile from the profiles screen to the right of the course select 
 + Each individual fox hunt clue on the hard variant of selected courses
 + All 31 practice holes at Welcome Island
 + 8 Putter Targets at the driving range of Welcome Island
-+ 8 Slingshot Targes at the driving range of Welcome Island
++ 8 Slingshot Targets at the driving range of Welcome Island
 
 ## Items:
 + Course unlocks: Lets you enter the easy variant of the course
