@@ -12,5 +12,7 @@ This pack was started with the help of the [ap-manual-to-poptracker](https://git
 - Connect to Archipelago by using the AP button
 - Enjoy!
 
-Golf ball images provided by the [Walkabout Minigolf team](https://www.mightycoconut.com/minigolf) via their [Press Kit](https://www.dropbox.com/scl/fo/7nqpji6uce6dc6kky3253/AC14MYXuYp3fNIXgyQi86uU?rlkey=qqrvumjdq7ozttw6uz4we4apv&st=nkb9oonl&dl=0) for the game.
-Overhead shots of the courses provided by the [Walkabout Minigolf Fan Wiki](https://walkabout-mini-golf.fandom.com/wiki/Golf_Courses)
+Golf ball images and most course logos provided by the [Walkabout Minigolf team](https://www.mightycoconut.com/minigolf) via their [Press Kit](https://www.dropbox.com/scl/fo/7nqpji6uce6dc6kky3253/AC14MYXuYp3fNIXgyQi86uU?rlkey=qqrvumjdq7ozttw6uz4we4apv&st=nkb9oonl&dl=0) for the game.
+Overhead shots of the courses and some course logos provided by the [Walkabout Minigolf Fan Wiki](https://walkabout-mini-golf.fandom.com/wiki/Golf_Courses)
+Meow Wolf logo provided by [Meow Wolf's Official site](https://meowwolf.com/)
+Any image modifications done by Fairweather.
