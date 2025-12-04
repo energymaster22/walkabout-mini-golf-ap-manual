@@ -338,27 +338,27 @@
                     {
                         "name": "Hole 9",
                         "item_count": 1,
-                        "access_rules": ["TTEPar:3","TTEPar:2,op_nolin"]
+                        "access_rules": ["TTEPar:3","TTEPar:2,op_nolin_nonlinear"]
                     },
                     {
                         "name": "Hole 10",
                         "item_count": 1,
-                        "access_rules": ["TTEPar:3","TTEPar:2,op_nolin"]
+                        "access_rules": ["TTEPar:3","TTEPar:2,op_nolin_nonlinear"]
                     },
                     {
                         "name": "Hole 11",
                         "item_count": 1,
-                        "access_rules": ["TTEPar:3","TTEPar:2,op_nolin"]
+                        "access_rules": ["TTEPar:3","TTEPar:2,op_nolin_nonlinear"]
                     },
                     {
                         "name": "Hole 12",
                         "item_count": 1,
-                        "access_rules": ["TTEPar:3","TTEPar:2,op_nolin"]
+                        "access_rules": ["TTEPar:3","TTEPar:2,op_nolin_nonlinear"]
                     },
                     {
                         "name": "Hole 13",
                         "item_count": 1,
-                        "access_rules": ["TTEPar:3","TTEPar:2,op_nolin"]
+                        "access_rules": ["TTEPar:3","TTEPar:2,op_nolin_nonlinear"]
                     },
                     {
                         "name": "Hole 14",
@@ -368,17 +368,17 @@
                     {
                         "name": "Hole 15",
                         "item_count": 1,
-                        "access_rules": ["TTEPar:3","TTEPar:2,op_nolin"]
+                        "access_rules": ["TTEPar:3","TTEPar:2,op_nolin_nonlinear"]
                     },
                     {
                         "name": "Hole 16",
                         "item_count": 1,
-                        "access_rules": ["TTEPar:3","TTEPar:2,op_nolin"]
+                        "access_rules": ["TTEPar:3","TTEPar:2,op_nolin_nonlinear"]
                     },
                     {
                         "name": "Hole 17",
                         "item_count": 1,
-                        "access_rules": ["TTEPar:3","TTEPar:2,op_nolin"]
+                        "access_rules": ["TTEPar:3","TTEPar:2,op_nolin_nonlinear"]
                     },
                     {
                         "name": "Hole 18",
@@ -474,6 +474,11 @@
                         "name": "Lost Ball 18",
                         "item_count": 1,
 		                "chest_opened_img": "images/items/balls/01TT/0018.png"
+                    },
+                    {
+                        "name": "Course Complete",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/logos/TT.png"
                     }
                 ],
                 "map_locations": [
@@ -521,12 +526,12 @@
                     {
                         "name": "Hole 7",
                         "item_count": 1,
-                        "access_rules": ["TTHPar:3","TTHPar:2,op_nolin"]
+                        "access_rules": ["TTHPar:3","TTHPar:2,op_nolin_nonlinear"]
                     },
                     {
                         "name": "Hole 8",
                         "item_count": 1,
-                        "access_rules": ["TTHPar:3","TTHPar:2,op_nolin"]
+                        "access_rules": ["TTHPar:3","TTHPar:2,op_nolin_nonlinear"]
                     },
                     {
                         "name": "Hole 9",
@@ -536,17 +541,17 @@
                     {
                         "name": "Hole 10",
                         "item_count": 1,
-                        "access_rules": ["TTHPar:3","TTHPar:2,op_nolin"]
+                        "access_rules": ["TTHPar:3","TTHPar:2,op_nolin_nonlinear"]
                     },
                     {
                         "name": "Hole 11",
                         "item_count": 1,
-                        "access_rules": ["TTHPar:3","TTHPar:2,op_nolin"]
+                        "access_rules": ["TTHPar:3","TTHPar:2,op_nolin_nonlinear"]
                     },
                     {
                         "name": "Hole 12",
                         "item_count": 1,
-                        "access_rules": ["TTHPar:3","TTHPar:2,op_nolin"]
+                        "access_rules": ["TTHPar:3","TTHPar:2,op_nolin_nonlinear"]
                     },
                     {
                         "name": "Hole 13",
@@ -566,12 +571,12 @@
                     {
                         "name": "Hole 16",
                         "item_count": 1,
-                        "access_rules": ["TTHPar:3","TTHPar:2,op_nolin"]
+                        "access_rules": ["TTHPar:3","TTHPar:2,op_nolin_nonlinear"]
                     },
                     {
                         "name": "Hole 17",
                         "item_count": 1,
-                        "access_rules": ["TTHPar:3","TTHPar:2,op_nolin"]
+                        "access_rules": ["TTHPar:3","TTHPar:2,op_nolin_nonlinear"]
                     },
                     {
                         "name": "Hole 18",
@@ -629,12 +634,367 @@
                     {
                         "name": "Foxhunt Clue Item 13",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Course Complete",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/logos/TT.png"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "main_map",
                         "x": 45,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Cherry Blossom Easy",
+                "access_rules": ["CBCourse"],
+                "sections": [
+                    {
+                        "name": "Hole 1",
+                        "item_count": 1,
+                        "access_rules": ["CBEPar:2"]
+                    },
+                    {
+                        "name": "Hole 2",
+                        "item_count": 1,
+                        "access_rules": ["CBEPar:3"]
+                    },
+                    {
+                        "name": "Hole 3",
+                        "item_count": 1,
+                        "access_rules": ["CBEPar:3","CBEPar:2,op_nolin_nonlinear"]
+                    },
+                    {
+                        "name": "Hole 4",
+                        "item_count": 1,
+                        "access_rules": ["CBEPar:3"]
+                    },
+                    {
+                        "name": "Hole 5",
+                        "item_count": 1,
+                        "access_rules": ["CBEPar:3","CBEPar:2,op_nolin_nonlinear"]
+                    },
+                    {
+                        "name": "Hole 6",
+                        "item_count": 1,
+                        "access_rules": ["CBEPar:3","CBEPar:2,op_nolin_nonlinear"]
+                    },
+                    {
+                        "name": "Hole 7",
+                        "item_count": 1,
+                        "access_rules": ["CBEPar:3","CBEPar:2,op_nolin_nonlinear"]
+                    },
+                    {
+                        "name": "Hole 8",
+                        "item_count": 1,
+                        "access_rules": ["CBEPar:3"]
+                    },
+                    {
+                        "name": "Hole 9",
+                        "item_count": 1,
+                        "access_rules": ["CBEPar:3","CBEPar:2,op_nolin_nonlinear"]
+                    },
+                    {
+                        "name": "Hole 10",
+                        "item_count": 1,
+                        "access_rules": ["CBEPar:4"]
+                    },
+                    {
+                        "name": "Hole 11",
+                        "item_count": 1,
+                        "access_rules": ["CBEPar:4","CBEPar:2,op_nolin_nonlinear"]
+                    },
+                    {
+                        "name": "Hole 12",
+                        "item_count": 1,
+                        "access_rules": ["CBEPar:4","CBEPar:3,op_nolin_nonlinear"]
+                    },
+                    {
+                        "name": "Hole 13",
+                        "item_count": 1,
+                        "access_rules": ["CBEPar:4","CBEPar:1,op_nolin_nonlinear"]
+                    },
+                    {
+                        "name": "Hole 14",
+                        "item_count": 1,
+                        "access_rules": ["CBEPar:4","CBEPar:2,op_nolin_nonlinear"]
+                    },
+                    {
+                        "name": "Hole 15",
+                        "item_count": 1,
+                        "access_rules": ["CBEPar:4","CBEPar:2,op_nolin_nonlinear"]
+                    },
+                    {
+                        "name": "Hole 16",
+                        "item_count": 1,
+                        "access_rules": ["CBEPar:4","CBEPar:2,op_nolin_nonlinear"]
+                    },
+                    {
+                        "name": "Hole 17",
+                        "item_count": 1,
+                        "access_rules": ["CBEPar:4","CBEPar:2,op_nolin_nonlinear"]
+                    },
+                    {
+                        "name": "Hole 18",
+                        "item_count": 1,
+                        "access_rules": ["CBEPar:6"]
+                    },
+                    {
+                        "name": "Lost Ball 1",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/02CB/0001.png"
+                    },
+                    {
+                        "name": "Lost Ball 2",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/02CB/0002.png"
+                    },
+                    {
+                        "name": "Lost Ball 3",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/02CB/0003.png"
+                    },
+                    {
+                        "name": "Lost Ball 4",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/02CB/0004.png"
+                    },
+                    {
+                        "name": "Lost Ball 5",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/02CB/0005.png"
+                    },
+                    {
+                        "name": "Lost Ball 6",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/02CB/0006.png"
+                    },
+                    {
+                        "name": "Lost Ball 7",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/02CB/0007.png"
+                    },
+                    {
+                        "name": "Lost Ball 8",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/02CB/0008.png"
+                    },
+                    {
+                        "name": "Lost Ball 9",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/02CB/0009.png"
+                    },
+                    {
+                        "name": "Lost Ball 10",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/02CB/0010.png"
+                    },
+                    {
+                        "name": "Lost Ball 11",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/02CB/0011.png"
+                    },
+                    {
+                        "name": "Lost Ball 12",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/02CB/0012.png"
+                    },
+                    {
+                        "name": "Lost Ball 13",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/02CB/0013.png"
+                    },
+                    {
+                        "name": "Lost Ball 14",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/02CB/0014.png"
+                    },
+                    {
+                        "name": "Lost Ball 15",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/02CB/0015.png"
+                    },
+                    {
+                        "name": "Lost Ball 16",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/02CB/0016.png"
+                    },
+                    {
+                        "name": "Lost Ball 17",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/02CB/0017.png"
+                    },
+                    {
+                        "name": "Lost Ball 18",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/balls/02CB/0018.png"
+                    },
+                    {
+                        "name": "Course Complete",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/logos/CB.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "main_map",
+                        "x": 65,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Cherry Blossom Hard",
+                "access_rules": ["CBCourse,CBLost:10"],
+                "sections": [
+                    {
+                        "name": "Hole 1",
+                        "item_count": 1,
+                        "access_rules": ["CBHPar:2"]
+                    },
+                    {
+                        "name": "Hole 2",
+                        "item_count": 1,
+                        "access_rules": ["CBHPar:3"]
+                    },
+                    {
+                        "name": "Hole 3",
+                        "item_count": 1,
+                        "access_rules": ["CBHPar:3","CBHPar:2,op_nolin_nonlinear"]
+                    },
+                    {
+                        "name": "Hole 4",
+                        "item_count": 1,
+                        "access_rules": ["CBHPar:3"]
+                    },
+                    {
+                        "name": "Hole 5",
+                        "item_count": 1,
+                        "access_rules": ["CBHPar:3","CBHPar:2,op_nolin_nonlinear"]
+                    },
+                    {
+                        "name": "Hole 6",
+                        "item_count": 1,
+                        "access_rules": ["CBHPar:3","CBHPar:2,op_nolin_nonlinear"]
+                    },
+                    {
+                        "name": "Hole 7",
+                        "item_count": 1,
+                        "access_rules": ["CBHPar:3","CBHPar:2,op_nolin_nonlinear"]
+                    },
+                    {
+                        "name": "Hole 8",
+                        "item_count": 1,
+                        "access_rules": ["CBHPar:3"]
+                    },
+                    {
+                        "name": "Hole 9",
+                        "item_count": 1,
+                        "access_rules": ["CBHPar:3","CBHPar:2,op_nolin_nonlinear"]
+                    },
+                    {
+                        "name": "Hole 10",
+                        "item_count": 1,
+                        "access_rules": ["CBHPar:7"]
+                    },
+                    {
+                        "name": "Hole 11",
+                        "item_count": 1,
+                        "access_rules": ["CBHPar:7","CBHPar:2,op_nolin_nonlinear"]
+                    },
+                    {
+                        "name": "Hole 12",
+                        "item_count": 1,
+                        "access_rules": ["CBHPar:7","CBHPar:2,op_nolin_nonlinear"]
+                    },
+                    {
+                        "name": "Hole 13",
+                        "item_count": 1,
+                        "access_rules": ["CBHPar:7","CBHPar:1,op_nolin_nonlinear"]
+                    },
+                    {
+                        "name": "Hole 14",
+                        "item_count": 1,
+                        "access_rules": ["CBHPar:7","CBHPar:3,op_nolin_nonlinear"]
+                    },
+                    {
+                        "name": "Hole 15",
+                        "item_count": 1,
+                        "access_rules": ["CBHPar:7","CBHPar:2,op_nolin_nonlinear"]
+                    },
+                    {
+                        "name": "Hole 16",
+                        "item_count": 1,
+                        "access_rules": ["CBHPar:7","CBHPar:3,op_nolin_nonlinear"]
+                    },
+                    {
+                        "name": "Hole 17",
+                        "item_count": 1,
+                        "access_rules": ["CBHPar:7","CBHPar:3,op_nolin_nonlinear"]
+                    },
+                    {
+                        "name": "Hole 18",
+                        "item_count": 1,
+                        "access_rules": ["CBHPar:7","CBHPar:5,op_nolin_nonlinear"]
+                    },
+                    {
+                        "name": "Foxhunt Clue Item 1",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Foxhunt Clue Item 2",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Foxhunt Clue Item 3",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Foxhunt Clue Item 4",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Foxhunt Clue Item 5",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Foxhunt Clue Item 6",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Foxhunt Clue Item 7",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Foxhunt Clue Item 8",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Foxhunt Clue Item 9",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Foxhunt Clue Item 10",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Foxhunt Clue Item 11",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Course Complete",
+                        "item_count": 1,
+		                "chest_opened_img": "images/items/logos/CB.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "main_map",
+                        "x": 85,
                         "y": 0
                     }
                 ]

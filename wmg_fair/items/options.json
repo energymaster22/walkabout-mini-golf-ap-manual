@@ -1,9 +1,21 @@
 [
     {
         "name": "Linear Logic",
-        "type": "toggle",
+        "type": "progressive",
         "loop": "true",
-        "img": "images/items/placeholder.png",
-        "codes": "op_nolin"
+        "codes": "op_nolin",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/items/placeholder.png",
+                "codes": "op_nolin_linear",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/target.png",
+                "codes": "op_nolin_nonlinear",
+                "inherit_codes": false
+            }
+        ]
     }
 ]

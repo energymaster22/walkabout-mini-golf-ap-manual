@@ -6,7 +6,7 @@
       "content": [
         {
           "type": "dock",
-          "dock": "bottom",
+          "dock": "left",
           "content": [
             {
               "type": "dock",

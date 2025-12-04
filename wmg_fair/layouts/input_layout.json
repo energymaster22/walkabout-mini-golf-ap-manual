@@ -10,7 +10,11 @@
 				"item_margin": "1,2",
                 "item_size": "4,4",
 				"rows": [
-					["slingshot","TTCourse","TTLost","TTEPar","TTHPar"]
+					["slingshot"],
+                    ["TTCourse","TTEPar"],
+                    ["TTLost","TTHPar"],
+                    ["CBCourse","CBEPar"],
+                    ["CBLost","CBHPar"]
 				]
 			}
         ]

@@ -7,6 +7,72 @@
         "codes": "slingshot"
     },
     {
+        "name": "Driver",
+        "type": "consumable",
+        "img": "images/items/placeholder.png",
+        "codes": "fillerclub1"
+    },
+    {
+        "name": "5 Wood",
+        "type": "consumable",
+        "img": "images/items/placeholder.png",
+        "codes": "fillerclub2"
+    },
+    {
+        "name": "9 Iron",
+        "type": "consumable",
+        "img": "images/items/placeholder.png",
+        "codes": "fillerclub3"
+    },
+    {
+        "name": "Mashie-Niblick",
+        "type": "consumable",
+        "img": "images/items/placeholder.png",
+        "codes": "fillerclub4"
+    },
+    {
+        "name": "Baffing Spoon",
+        "type": "consumable",
+        "img": "images/items/placeholder.png",
+        "codes": "fillerclub5"
+    },
+    {
+        "name": "Mid-Mashie",
+        "type": "consumable",
+        "img": "images/items/placeholder.png",
+        "codes": "fillerclub6"
+    },
+    {
+        "name": "Cleek",
+        "type": "consumable",
+        "img": "images/items/placeholder.png",
+        "codes": "fillerclub7"
+    },
+    {
+        "name": "Lofter",
+        "type": "consumable",
+        "img": "images/items/placeholder.png",
+        "codes": "fillerclub8"
+    },
+    {
+        "name": "Pitching-Niblick",
+        "type": "consumable",
+        "img": "images/items/placeholder.png",
+        "codes": "fillerclub9"
+    },
+    {
+        "name": "Rut-Niblick",
+        "type": "consumable",
+        "img": "images/items/placeholder.png",
+        "codes": "fillerclub10"
+    },
+    {
+        "name": "Spade-Mashie",
+        "type": "consumable",
+        "img": "images/items/placeholder.png",
+        "codes": "fillerclub11"
+    },
+    {
         "name": "Tourist Trap Course Unlock",
         "type": "toggle",
         "loop": "true",
@@ -22,14 +88,34 @@
     {
         "name": "Tourist Trap Easy Par",
         "type": "consumable",
-        "img": "images/items/balls/00Welcome/0005.png",
+        "img": "images/items/easypar.png",
         "codes": "TTEPar"
     },
     {
         "name": "Tourist Trap Hard Par",
         "type": "consumable",
-        "img": "images/items/balls/00Welcome/0005.png",
+        "img": "images/items/hardpar.png",
         "codes": "TTHPar"
+    },
+    {
+        "name": "Tourist Trap Easy Scorecard",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/logos/TT.png",
+        "codes": "TTEScorecard"
+    },
+    {
+        "name": "Tourist Trap Hard Scorecard",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/logos/TT.png",
+        "codes": "TTHScorecard"
+    },
+    {
+        "name": "Tourist Trap Putter",
+        "type": "consumable",
+        "img": "images/items/placeholder.png",
+        "codes": "TTHClub"
     },
     {
         "name": "Cherry Blossom Course Unlock",
@@ -37,5 +123,43 @@
         "loop": "true",
         "img": "images/items/logos/CB.png",
         "codes": "CBCourse"
+    },
+    {
+        "name": "Cherry Blossom Lost Balls",
+        "type": "consumable",
+        "img": "images/items/balls/00Welcome/0005.png",
+        "codes": "CBLost"
+    },
+    {
+        "name": "Cherry Blossom Easy Par",
+        "type": "consumable",
+        "img": "images/items/easypar.png",
+        "codes": "CBEPar"
+    },
+    {
+        "name": "Cherry Blossom Hard Par",
+        "type": "consumable",
+        "img": "images/items/hardpar.png",
+        "codes": "CBHPar"
+    },
+    {
+        "name": "Cherry Blossom Easy Scorecard",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/logos/CB.png",
+        "codes": "CBEScorecard"
+    },
+    {
+        "name": "Cherry Blossom Hard Scorecard",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/logos/CB.png",
+        "codes": "CBHScorecard"
+    },
+    {
+        "name": "Cherry Blossom Putter",
+        "type": "consumable",
+        "img": "images/items/placeholder.png",
+        "codes": "CBHClub"
     }
 ]

@@ -1,5 +1,6 @@
 ScriptHost:LoadScript("scripts/archipelago/item_mapping.lua")
 ScriptHost:LoadScript("scripts/archipelago/location_mapping.lua")
+ScriptHost:LoadScript("scripts/archipelago/apslot.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
