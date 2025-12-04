@@ -81,6 +81,12 @@ function onClear(slot_data)
             end
         end
     end
+	for k,v in pairs(slot_data) do
+		if SLOT_CODES[k] then
+			Tracker:FindObjectForCode(SLOT_CODES[k].code).CurrentStage = SLOT_CODES[k].mapping[v]
+		end
+	end
+
 end
 
 -- called when an item gets collected
