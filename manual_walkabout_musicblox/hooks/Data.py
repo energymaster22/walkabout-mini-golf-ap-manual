@@ -135,12 +135,15 @@ def after_load_location_file(location_table: list) -> list:
     for course in courses:
         name = course[1].strip()
         abbreviation = course[0].strip()
-        branchCount = int(course[38])
+        branchCount = int(course[40])
         pendingJson = []
         pendingHardJson = []
         pendingCompleteJson = []
         pendingHardCompleteJson = []
         pendingBallJson = []
+        targetCountEasy = int(course[38])
+        targetCountHard = int(course[39])
+        pendingTargetsJson = []
 
         strokeMinMax = 0
         strokeMinMaxHard = 0
@@ -210,10 +213,29 @@ def after_load_location_file(location_table: list) -> list:
         location_table.extend(pendingCompleteJson)
         location_table.extend(pendingHardCompleteJson)
 
+        #Generate Slingshot Target Checks
+        for i in range (targetCountEasy):
+            pendingTargetsJson.append(
+                {
+                    "name": f"{abbreviation}E Target {str(i)}",
+                    "category": [
+                    f"{name}",
+                    f"{abbreviation}",
+                    "Slingshot"
+                    ]
+                    
+                }
+            )
+
+        for i in range (targetCountHard):
+            pendingTargetsJson.append(
+
+            )
+
         pendingJson = []
 
         for i in range (branchCount): #Splice foxhunt clue branch into its components, then add foxhunt checks
-            branch = re.split(r'(\d+)', course[i + 39])
+            branch = re.split(r'(\d+)', course[i + 41])
             for j in range (int(branch[1])):
                 pendingJson.append(
                     {
@@ -285,6 +307,11 @@ def after_load_category_file(category_table: dict) -> dict:
         category_table[f"{abbreviation}"] = {
             "hidden": True
         }
+
+    #Force Slingshot category to be hidden in Manual Client
+    category_table[Slingshot] = {
+        "hidden": True
+    }
 
     #Make every course name category so it can be hidden later
     #As of December 1st, 2025 apparently there is no way to dynamically hide catagories based on YAML settings so this code is currently uselss... pain -Energy22
