@@ -195,7 +195,7 @@ def after_load_location_file(location_table: list) -> list:
                 f"{abbreviation}",
                 "Course Completion"
                 ],
-                "requires": [f"{abbreviation}E Progressive Stroke Limit:{maxParEasy}"],
+                "requires": f"|{name} Course| AND |{abbreviation}E Progressive Stroke Limit:{maxParEasy}|",
                 "place_item": [
                 f"{abbreviation}E Scorecard"
                 ]
@@ -208,7 +208,7 @@ def after_load_location_file(location_table: list) -> list:
                 f"{abbreviation}",
                 "Course Completion"
                 ],
-                "requires": [f"{abbreviation}H Progressive Stroke Limit:{maxParHard}"],
+                "requires": f"|{name} Course| AND |{abbreviation}H Progressive Stroke Limit:{maxParHard}| AND |{abbreviation}E Lost Ball:10|",
                 "place_item": [
                 f"{abbreviation}H Scorecard"
                 ]
