@@ -181,6 +181,16 @@ def after_load_location_file(location_table: list) -> list:
                     "requires": f"|{name} Course|"
                 }
             )
+        
+        maxParEasy = 0
+        maxParHard = 0
+
+        for i in range(18):
+            if (int(maxParEasy) < int(course[i + 2])):
+                maxParEasy = str(int(course[i + 2]) - adjustableParLogic)
+            if (int(maxParHard) < int(course[i + 20])):
+                maxParHard = str(int(course[i + 20]) - adjustableParLogic)
+        
         pendingCompleteJson.append(
             {
                 "name": f"{abbreviation}E Complete",
@@ -188,7 +198,7 @@ def after_load_location_file(location_table: list) -> list:
                 f"{abbreviation}",
                 "Course Completion"
                 ],
-                "requires": [f"{abbreviation}E Progressive Stroke Limit:5"],
+                "requires": f"|{name} Course| AND |{abbreviation}E Progressive Stroke Limit:{maxParEasy}|",
                 "place_item": [
                 f"{abbreviation}E Scorecard"
                 ]
@@ -201,7 +211,7 @@ def after_load_location_file(location_table: list) -> list:
                 f"{abbreviation}",
                 "Course Completion"
                 ],
-                "requires": [f"{abbreviation}H Progressive Stroke Limit:5"],
+                "requires": f"|{name} Course| AND |{abbreviation}H Progressive Stroke Limit:{maxParHard}| AND |{abbreviation}E Lost Ball:10|",
                 "place_item": [
                 f"{abbreviation}H Scorecard"
                 ]
