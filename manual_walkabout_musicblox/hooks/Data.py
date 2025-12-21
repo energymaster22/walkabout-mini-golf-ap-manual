@@ -229,9 +229,10 @@ def after_load_location_file(location_table: list) -> list:
                 {
                     "name": f"{abbreviation}E Target {str(i)}",
                     "category": [
-                    f"{name}",
+                    f"{name} Targets",
                     f"{abbreviation}",
-                    "Slingshot"
+                    "Slingshot",
+                    ""
                     ],
                     "requires": f"|{name} Course| AND |Slingshot|"
                     
@@ -243,11 +244,11 @@ def after_load_location_file(location_table: list) -> list:
                 {
                     "name": f"{abbreviation}H Target {str(i)}",
                     "category": [
-                    f"{name}",
+                    f"{name} Hard Targets",
                     f"{abbreviation}",
                     "Slingshot"
                     ],
-                    "requires": f"|{name} Course| AND |{abbreviation} E Lost Ball:10| AND |Slingshot|"
+                    "requires": f"|{name} Course| AND |{abbreviation}E Lost Ball:10| AND |Slingshot|"
                 }
             )
         location_table.extend(pendingTargetsJson)
@@ -329,7 +330,7 @@ def after_load_category_file(category_table: dict) -> dict:
         }
 
     #Force Slingshot category to be hidden in Manual Client
-    category_table[Slingshot] = {
+    category_table["Slingshot"] = {
         "hidden": True
     }
 
