@@ -55,18 +55,18 @@ def after_load_item_file(item_table: list) -> list:
                 "progression": True
             }
         )
-        pendingHardJson.append(
-                {
-                "count": 1,
-                "name": f"{name} Hard Course",
-                "category": [
-                f"{abbreviation}",
-                f"{name}",
-                "Courses"
-                ],
-                "progression": True
-            }
-        )
+        #pendingHardJson.append(
+        #        {
+        #        "count": 1,
+        #        "name": f"{name} Hard Course",
+        #        "category": [
+        #        f"{abbreviation}",
+        #        f"{name}",
+        #        "Courses"
+        #        ],
+        #        "progression": True
+        #    }
+        #)
         pendingLimitHardJson.append(
             {
                 "count": "15",
