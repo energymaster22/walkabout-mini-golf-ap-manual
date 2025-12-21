@@ -232,15 +232,25 @@ def after_load_location_file(location_table: list) -> list:
                     f"{name}",
                     f"{abbreviation}",
                     "Slingshot"
-                    ]
+                    ],
+                    "requires": f"|{name} Course| AND |Slingshot|"
                     
                 }
             )
 
         for i in range (targetCountHard):
             pendingTargetsJson.append(
-
+                {
+                    "name": f"{abbreviation}H Target {str(i)}",
+                    "category": [
+                    f"{name}",
+                    f"{abbreviation}",
+                    "Slingshot"
+                    ],
+                    "requires": f"|{name} Course| AND |{abbreviation} E Lost Ball:10| AND |Slingshot|"
+                }
             )
+        location_table.extend(pendingTargetsJson)
 
         pendingJson = []
 
