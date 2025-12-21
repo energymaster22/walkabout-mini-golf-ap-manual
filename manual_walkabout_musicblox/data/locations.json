@@ -248,7 +248,7 @@
     "requires": ""
   },
   {
-    "name": "Shack Putter Target 1",
+    "name": "Welcome Island Putter Target 1",
     "region": "The Shack",
     "category": [
       "Welcome Island Targets"
@@ -256,7 +256,7 @@
     "requires": ""
   },
   {
-    "name": "Shack Putter Target 2",
+    "name": "Welcome Island Putter Target 2",
     "region": "The Shack",
     "category": [
       "Welcome Island Targets"
@@ -264,7 +264,7 @@
     "requires": ""
   },
   {
-    "name": "Shack Putter Target 3",
+    "name": "Welcome Island Putter Target 3",
     "region": "The Shack",
     "category": [
       "Welcome Island Targets"
@@ -272,7 +272,7 @@
     "requires": ""
   },
   {
-    "name": "Shack Putter Target 4",
+    "name": "Welcome Island Putter Target 4",
     "region": "The Shack",
     "category": [
       "Welcome Island Targets"
@@ -280,7 +280,7 @@
     "requires": ""
   },
   {
-    "name": "Shack Putter Target 5",
+    "name": "Welcome Island Putter Target 5",
     "region": "The Shack",
     "category": [
       "Welcome Island Targets"
@@ -288,7 +288,7 @@
     "requires": ""
   },
   {
-    "name": "Shack Putter Target 6",
+    "name": "Welcome Island Putter Target 6",
     "region": "The Shack",
     "category": [
       "Welcome Island Targets"
@@ -296,7 +296,7 @@
     "requires": ""
   },
   {
-    "name": "Shack Putter Target 7",
+    "name": "Welcome Island Putter Target 7",
     "region": "The Shack",
     "category": [
       "Welcome Island Targets"
@@ -304,7 +304,7 @@
     "requires": ""
   },
   {
-    "name": "Shack Putter Target 8",
+    "name": "Welcome Island Putter Target 8",
     "region": "The Shack",
     "category": [
       "Welcome Island Targets"
@@ -312,7 +312,7 @@
     "requires": ""
   },
   {
-    "name": "Shack Putter Target 9",
+    "name": "Welcome Island Putter Target 9",
     "region": "The Shack",
     "category": [
       "Welcome Island Targets"
@@ -320,7 +320,7 @@
     "requires": ""
   },
   {
-    "name": "Shack Putter Target 10",
+    "name": "Welcome Island Putter Target 10",
     "region": "The Shack",
     "category": [
       "Welcome Island Targets"
@@ -328,7 +328,7 @@
     "requires": ""
   },
   {
-    "name": "Shack Putter Target 11",
+    "name": "Welcome Island Putter Target 11",
     "region": "The Shack",
     "category": [
       "Welcome Island Targets"
@@ -336,7 +336,7 @@
     "requires": ""
   },
   {
-    "name": "Shack Putter Target 12",
+    "name": "Welcome Island Putter Target 12",
     "region": "The Shack",
     "category": [
       "Welcome Island Targets"
@@ -344,7 +344,7 @@
     "requires": ""
   },
   {
-    "name": "Shack Slingshot Target 1",
+    "name": "Welcome Island Slingshot Target 1",
     "region": "The Shack",
     "category": [
       "Welcome Island Targets"
@@ -352,7 +352,7 @@
     "requires": "|Slingshot|"
   },
   {
-    "name": "Shack Slingshot Target 2",
+    "name": "Welcome Island Slingshot Target 2",
     "region": "The Shack",
     "category": [
       "Welcome Island Targets"
@@ -360,7 +360,7 @@
     "requires": "|Slingshot|"
   },
   {
-    "name": "Shack Slingshot Target 3",
+    "name": "Welcome Island Slingshot Target 3",
     "region": "The Shack",
     "category": [
       "Welcome Island Targets"
@@ -368,7 +368,7 @@
     "requires": "|Slingshot|"
   },
   {
-    "name": "Shack Slingshot Target 4",
+    "name": "Welcome Island Slingshot Target 4",
     "region": "The Shack",
     "category": [
       "Welcome Island Targets"
@@ -376,7 +376,7 @@
     "requires": "|Slingshot|"
   },
   {
-    "name": "Shack Slingshot Target 5",
+    "name": "Welcome Island Slingshot Target 5",
     "region": "The Shack",
     "category": [
       "Welcome Island Targets"
@@ -384,7 +384,7 @@
     "requires": "|Slingshot|"
   },
   {
-    "name": "Shack Slingshot Target 6",
+    "name": "Welcome Island Slingshot Target 6",
     "region": "The Shack",
     "category": [
       "Welcome Island Targets"
@@ -392,7 +392,7 @@
     "requires": "|Slingshot|"
   },
   {
-    "name": "Shack Slingshot Target 7",
+    "name": "Welcome Island Slingshot Target 7",
     "region": "The Shack",
     "category": [
       "Welcome Island Targets"
@@ -400,7 +400,7 @@
     "requires": "|Slingshot|"
   },
   {
-    "name": "Shack Slingshot Target 8",
+    "name": "Welcome Island Slingshot Target 8",
     "region": "The Shack",
     "category": [
       "Welcome Island Targets"
@@ -408,7 +408,7 @@
     "requires": "|Slingshot|"
   },
   {
-    "name": "Shack Slingshot Target 9",
+    "name": "Welcome Island Slingshot Target 9",
     "region": "The Shack",
     "category": [
       "Welcome Island Targets"
@@ -416,7 +416,7 @@
     "requires": "|Slingshot|"
   },
   {
-    "name": "Shack Slingshot Target 10",
+    "name": "Welcome Island Slingshot Target 10",
     "region": "The Shack",
     "category": [
       "Welcome Island Targets"
@@ -424,7 +424,7 @@
     "requires": "|Slingshot|"
   },
   {
-    "name": "Shack Slingshot Target 11",
+    "name": "Welcome Island Slingshot Target 11",
     "region": "The Shack",
     "category": [
       "Welcome Island Targets"
@@ -432,7 +432,7 @@
     "requires": "|Slingshot|"
   },
   {
-    "name": "Shack Slingshot Target 12",
+    "name": "Welcome Island Slingshot Target 12",
     "region": "The Shack",
     "category": [
       "Welcome Island Targets"
@@ -440,7 +440,7 @@
     "requires": "|Slingshot|"
   },
   {
-    "name": "Shack Slingshot Target 13",
+    "name": "Welcome Island Slingshot Target 13",
     "region": "The Shack",
     "category": [
       "Welcome Island Targets"
@@ -448,7 +448,7 @@
     "requires": "|Slingshot|"
   },
   {
-    "name": "Shack Slingshot Target 14",
+    "name": "Welcome Island Slingshot Target 14",
     "region": "The Shack",
     "category": [
       "Welcome Island Targets"
@@ -456,7 +456,7 @@
     "requires": "|Slingshot|"
   },
   {
-    "name": "Shack Slingshot Target 15",
+    "name": "Welcome Island Slingshot Target 15",
     "region": "The Shack",
     "category": [
       "Welcome Island Targets"
