@@ -227,7 +227,7 @@ def after_load_location_file(location_table: list) -> list:
         for i in range (targetCountEasy):
             pendingTargetsJson.append(
                 {
-                    "name": f"{abbreviation}E Target {str(i)}",
+                    "name": f"{abbreviation}E Target {i + 1}",
                     "category": [
                     f"{name} Targets",
                     f"{abbreviation}",
@@ -242,7 +242,7 @@ def after_load_location_file(location_table: list) -> list:
         for i in range (targetCountHard):
             pendingTargetsJson.append(
                 {
-                    "name": f"{abbreviation}H Target {str(i)}",
+                    "name": f"{abbreviation}H Target {i + 1}",
                     "category": [
                     f"{name} Hard Targets",
                     f"{abbreviation}",
