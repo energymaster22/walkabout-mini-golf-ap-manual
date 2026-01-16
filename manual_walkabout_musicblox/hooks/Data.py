@@ -132,6 +132,9 @@ def after_load_location_file(location_table: list) -> list:
     courses = get_courses()
     victoryCourseList = ""
     pendingVictoryJson = []
+
+    # WARNING: When adding catagories to locations, make sure the first category is f"{abbreviation}"
+    # or else the location will fail to be marked for removal!!!!!!!!!!!!!!!!!!
     for course in courses:
         name = course[1].strip()
         abbreviation = course[0].strip()
@@ -228,11 +231,12 @@ def after_load_location_file(location_table: list) -> list:
             pendingTargetsJson.append(
                 {
                     "name": f"{abbreviation}E Target {i + 1}",
+                    "region": f"{name}",
                     "category": [
-                    f"{name} Targets",
                     f"{abbreviation}",
+                    f"{name} Targets",
+                    f"{name}",
                     "Slingshot",
-                    ""
                     ],
                     "requires": f"|{name} Course| AND |Slingshot|"
                     
@@ -243,9 +247,11 @@ def after_load_location_file(location_table: list) -> list:
             pendingTargetsJson.append(
                 {
                     "name": f"{abbreviation}H Target {i + 1}",
+                    "region": f"{name} Hard",
                     "category": [
-                    f"{name} Hard Targets",
                     f"{abbreviation}",
+                    f"{name} Hard Targets",
+                    f"{name} Hard",
                     "Slingshot"
                     ],
                     "requires": f"|{name} Course| AND |{abbreviation}E Lost Ball:10| AND |Slingshot|"
