@@ -173,7 +173,7 @@ def after_load_location_file(location_table: list) -> list:
                     "name": f"{abbreviation}H Hole {i + 1}",
                     "region": f"{name} Hard",
                     "category": [f"{abbreviation}", f"{name} Hard Holes"],
-                    "requires": f"|{name} Course| AND (({{YamlDisabled(LinearLogic)}} AND |{abbreviation}H Progressive Stroke Limit:{str(int(course[i + 2]) - adjustableParLogic)}|) OR ({{YamlEnabled(LinearLogic)}} AND |{abbreviation}H Progressive Stroke Limit:{strokeMinMaxHard}|))"
+                    "requires": f"|{name} Course| AND (({{YamlDisabled(LinearLogic)}} AND |{abbreviation}H Progressive Stroke Limit:{str(int(course[i + 20]) - adjustableParLogic)}|) OR ({{YamlEnabled(LinearLogic)}} AND |{abbreviation}H Progressive Stroke Limit:{strokeMinMaxHard}|))"
                 }
             )
             pendingBallJson.append(
